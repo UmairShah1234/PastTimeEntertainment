@@ -20,8 +20,8 @@ const EventCard = () => {
   // style="height: 20px;"
   return (
     <Box className="d-flex flex-column bg-dark   ">
-      <div className="d-flex justify-content-around">
-        <h4 className="py-3 text-white">Check Out All Our Events</h4>
+      <h2 className="py-3 text-white text-center">Check Out All Our Events</h2>
+      <div className="d-flex justify-content-around ">
         <select
           className="bg-dark btn btn-outline-danger  text-white"
           value={selectedEvent}
@@ -35,13 +35,13 @@ const EventCard = () => {
           ))}
         </select>
       </div>
-      <Box className="d-flex flex-row row" sx={{ width: "100vw" }}>
-        <Box className="col text-center text-white">
-          {events[selectedEvent].desc}
+      <Box className="d-flex flex-row row p-5" sx={{ width: "100vw" }}>
+        <Box className="col text-center text-white ">
+          <p>{events[selectedEvent].desc}</p>
         </Box>
         <Box className="col">
           <ImageList
-            className="bg-dark"
+            className="bg-dark shadow-lg border-0"
             sx={{ border: "1px dashed grey", height: "100vh" }}
             variant="quilted"
             cols={3}

@@ -1,3 +1,4 @@
+import { Badge } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -44,10 +45,10 @@ const Header = () => {
               <Link className="nav-link" to="contact-us">
                 Contact Us
               </Link>
-            </li> 
+            </li>
             <li className="nav-item mx-3">
-              <Link className="nav-link" to="contact-us">
-                Training 
+              <Link className="nav-link" to="conflict-management">
+                <Badge color="success" badgeContent={"new"}>Training</Badge>
               </Link>
             </li>
           </ul>
