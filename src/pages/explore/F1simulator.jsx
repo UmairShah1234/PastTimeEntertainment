@@ -1,7 +1,6 @@
 import React from "react";
-import ProductPage from "../../components/ProductPage";
 
-const Vrcricket = () => {
+const F1simulator = () => {
   const keypoints = [
     "Immersive Experience: VR cricket offers players a highly immersive experience by using VR headsets and controllers. This allows them to feel like they are actually on the cricket field, facing bowlers, and batting or bowling in a virtual world.",
     "Gameplay Simulation: VR cricket games are designed to simulate the actual rules and mechanics of cricket. Players can bat, bowl, and field as they would in a real cricket match. The gameplay aims to replicate the nuances of the sport.",
@@ -57,7 +56,6 @@ const Vrcricket = () => {
         "The number of participants depends on the setup and available equipment. Events can have multiple VR stations to accommodate several players simultaneously.",
     },
   ];
-  
   return (
     <div>
       <ProductPage
@@ -72,4 +70,4 @@ const Vrcricket = () => {
   );
 };
 
-export default Vrcricket;
+export default F1simulator;

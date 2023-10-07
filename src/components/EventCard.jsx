@@ -20,7 +20,7 @@ const EventCard = () => {
   // style="height: 20px;"
   return (
     <Box className="d-flex flex-column bg-dark   ">
-      <h2 className="py-3 text-white text-center">Check Out All Our Events</h2>
+      <h2 className="py-3 text-white text-center">Check Out Our Grand Events</h2>
       <div className="d-flex justify-content-around ">
         <select
           className="bg-dark btn btn-outline-danger  text-white"
@@ -35,17 +35,21 @@ const EventCard = () => {
           ))}
         </select>
       </div>
-      <Box className="d-flex flex-row row p-5" sx={{ width: "100vw" }}>
-        <Box className="col text-center text-white ">
-          <p>{events[selectedEvent].desc}</p>
+      <Box className="d-flex flex-column row px-5" sx={{ width: "100vw" }}>
+          <h3 className="text-light">
+            <span className="border-bottom">Read About Events</span>
+          </h3>
+        <Box className="col text-center text-white">
+          <p className="pb-3">{events[selectedEvent].desc}</p>
         </Box>
         <Box className="col">
           <ImageList
-            className="bg-dark shadow-lg border-0"
-            sx={{ border: "1px dashed grey", height: "100vh" }}
-            variant="quilted"
+            className="bg-dark p-3 shadow-lg border-1 border-light border"
+            
+            variant="masonry"
             cols={3}
-            rowHeight={500}
+            rowHeight={300}
+            gap={8}
           >
             {events[selectedEvent].img.map((image, index) => (
               <ImageListItem

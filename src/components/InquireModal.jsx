@@ -29,7 +29,7 @@ const InquireModal = () => {
                   <div class="form-floating mb-3">
                     <input
                       type="text"
-                      className="form-control bg-dark"
+                      className="form-control bg-dark text-light"
                       id="floatingInput"
                       placeholder="name@example.com"
                     />
@@ -38,7 +38,7 @@ const InquireModal = () => {
                   <div class="form-floating mb-3">
                     <input
                       type="text"
-                      className="form-control bg-dark"
+                      className="form-control bg-dark text-light"
                       id="floatingInput"
                       placeholder="name@example.com"
                     />
@@ -47,11 +47,11 @@ const InquireModal = () => {
                   <div class="form-floating mb-3">
                     <textarea
                       type="text"
-                      className="form-control bg-dark"
+                      className="form-control bg-dark text-light"
                       id="floatingInput"
                       placeholder="name@example.com"
                     />
-                    <label for="floatingInput">Name</label>
+                    
                   </div>
                 </form>
               </div>
@@ -65,7 +65,7 @@ const InquireModal = () => {
                 Close
               </button>
               <button type="button" className="btn btn-outline-danger">
-                Save changes
+                Inquire
               </button>
             </div>
           </div>

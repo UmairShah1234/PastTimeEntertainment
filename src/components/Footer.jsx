@@ -58,7 +58,7 @@ const Footer = () => {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Accordion Item #1
+                  Explore
                 </button>
               </h2>
               <div
@@ -67,15 +67,10 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body text-light">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <div className="mb-3 ">Home</div>
+                  <div className="mb-3">Products</div>
+                  <div className="mb-3">Events</div>
+                  <div className="mb-3">Training</div>
                 </div>
               </div>
             </div>
@@ -89,7 +84,7 @@ const Footer = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Accordion Item #2
+                  Support
                 </button>
               </h2>
               <div
@@ -98,15 +93,10 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body bg-dark text-light">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <div className="mb-3">FAQs</div>
+                  <div className="mb-3">Review</div>
+                  <div className="mb-3">Training</div>
+                  <div className="mb-3">About</div>
                 </div>
               </div>
             </div>
@@ -120,7 +110,7 @@ const Footer = () => {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  Accordion Item #3
+                  Contacts
                 </button>
               </h2>
               <div
@@ -129,15 +119,10 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body bg-dark text-light">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <div className="mb-3">simplygaming@gmail.com</div>
+                  <div className="mb-3">simplygaming.in</div>
+                  <div className="mb-3">simplygaming@facebook</div>
+                  <div className="mb-3">+91 99877 94974</div>
                 </div>
               </div>
             </div>

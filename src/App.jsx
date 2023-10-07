@@ -30,7 +30,7 @@ const router = createBrowserRouter([
         element: <Explore />,
         children: [
           {
-            path: "vr-cricket",
+            path: "explore/vrcricket",
             element: <Vrcricket />,
           },
         ],

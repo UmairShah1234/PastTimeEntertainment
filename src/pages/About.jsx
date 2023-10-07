@@ -1,5 +1,10 @@
 import React from "react";
-import { CheckCircleOutlineOutlined } from "@mui/icons-material";
+import {
+  CheckCircleOutlineOutlined,
+  Psychology,
+  ShoppingCartCheckout,
+  SupportAgent,
+} from "@mui/icons-material";
 
 const About = () => {
   return (
@@ -15,17 +20,20 @@ const About = () => {
             <div className="col-md-8 p-3">
               <h2 className="text-danger">Latest And Finest Technologies</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit,
-                tenetur beatae laborum earum laudantium quaerat sit porro eaque
-                id vel sequi dolor doloribus, eligendi saepe! Illo delectus nam
-                asperiores nobis! <br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit,
-                tenetur beatae laborum earum laudantium quaerat sit porro eaque
-                id vel sequi dolor doloribus, eligendi saepe! Illo delectus nam
-                asperiores nobis!Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Fugit, tenetur beatae laborum earum laudantium
-                quaerat sit porro eaque id vel sequi dolor doloribus, eligendi
-                saepe! Illo delectus nam asperiores nobis!
+                VR (Virtual Reality) gaming and simulator gaming are two
+                distinct but related experiences in the world of video gaming.
+                They both offer immersive and interactive gameplay, but they
+                differ in terms of technology, hardware, and the type of
+                experiences they provide. <br />
+                VR gaming is a type of gaming that immerses players in a
+                computer-generated virtual environment using a VR headset and
+                motion-tracking controllers. It aims to provide a sense of
+                presence, allowing players to feel as though they are physically
+                present in the virtual world. <br />
+                Simulator gaming involves playing video games that simulate
+                real-world activities or experiences, such as driving, flying,
+                farming, construction, or sports. These games aim to provide a
+                realistic and often educational experience
               </p>
               <button className="btn text-danger btn-outline-info">
                 Check More
@@ -87,95 +95,109 @@ const About = () => {
         </div>
 
         <div className="p-3 ">
-          <h2 className="text-danger  text-center border-bottom p-3">All About Our Services</h2>
+          <h2 className="text-danger  text-center border-bottom p-3">
+            All About Our Services
+          </h2>
 
-          <div className="row">
-            <div className="col-md-12 d-flex">
-              <div className="d-flex shadow-lg flex-column m-1 p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
-                </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
+          <div className="">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="d-flex shadow-lg flex-column m-1 p-3 ">
+                  <div className="text-center">
+                    <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
+                  </div>
+                  <h3>100% Satisfaction Guarantee</h3>
+                  <div>
+                    <p>
+                      We strive to establish a good relationship with consumers
+                      and provide exceptional services to garner 100%
+                      satisfaction.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div className="d-flex flex-column m-1 shadow-lg  p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
-                </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
+              <div className="col-md-4">
+                <div className="d-flex flex-column m-1 shadow-lg  p-3 ">
+                  <div className="text-center">
+                    <Psychology sx={{ fontSize: 100 }} />
+                  </div>
+                  <h3>Technical expertise</h3>
+                  <div>
+                    <p>
+                      We offer unparalleled technical expertise. From setup to
+                      troubleshooting, our team ensures a flawless VR
+                      experience.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div className="d-flex flex-column m-1 shadow-lg  p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
-                </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
+              <div className="col-md-4">
+                <div className="d-flex flex-column m-1 shadow-lg  p-3">
+                  <div className="text-center">
+                    <SupportAgent sx={{ fontSize: 100 }} />
+                  </div>
+                  <h3>Customer Centric</h3>
+                  <div>
+                    <p>
+                      We're all about being customer-centric. Your satisfaction
+                      is our top priority, and we tailor every VR experience to
+                      meet your unique needs and preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-md-12 d-flex">
-              <div className="d-flex flex-column m-1 shadow-lg p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
-                </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
-                </div>
-              </div>
-
-              <div className="d-flex flex-column m-1 shadow-lg  p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
-                </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
+          <div className="">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="d-flex flex-column m-1 shadow-lg p-3 ">
+                  <div className="text-center">
+                    <ShoppingCartCheckout sx={{ fontSize: 80 }} />
+                  </div>
+                  <h3>One Stop Shop</h3>
+                  <div>
+                    <p>
+                      At Pastime Entertainment, we're your one-stop VR solution.
+                      From planning to execution, we handle it all, making your
+                      VR experience seamless and unforgettable.
+                    </p>
+                  </div>
                 </div>
               </div>
 
-              <div className="d-flex flex-column m-1  shadow-lg p-3">
-                <div className="text-center">
-                  <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
+              <div className="col-md-4">
+                <div className="d-flex flex-column m-1 shadow-lg  p-3">
+                  <div className="text-center">
+                    <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
+                  </div>
+                  <h3>Infinite Experiences</h3>
+                  <div>
+                    <p>
+                      our vast catalog ensures there's something for everyone.
+                      We offer an extensive range of VR adventures to suit all
+                      tastes and preferences.
+                    </p>
+                  </div>
                 </div>
-                <h3>100% Satisfaction Guarantee</h3>
-                <div>
-                  <p>
-                    We strive to establish a good relationship with consumers
-                    and provide exceptional services to garner 100%
-                    satisfaction.
-                  </p>
+              </div>
+
+              <div className="col-md-4">
+                <div className="d-flex flex-column m-1  shadow-lg p-3">
+                  <div className="text-center">
+                    <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
+                  </div>
+                  <h3>Unforgettable experience</h3>
+                  <div>
+                    <p>
+                      At Pastime Entertainment, we deliver an experience like no
+                      other. Our VR adventures redefine entertainment, leaving
+                      you with unforgettable memories.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
