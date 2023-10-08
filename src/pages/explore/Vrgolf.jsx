@@ -60,7 +60,7 @@ const Vrgolf = () => {
   return (
     <div>
         <ProductPage
-        title={"VR Cricket"}
+        title={"VR Golf"}
         keypoints={keypoints}
         about={about}
         usageText={usageText}

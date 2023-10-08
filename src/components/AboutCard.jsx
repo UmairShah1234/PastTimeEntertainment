@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutCard = () => {
   return (
@@ -7,7 +8,7 @@ const AboutCard = () => {
         <h2 className="card-title my-3 text-danger">
           About <br />
           <span className=" border-bottom border-primary border-2 text-light">
-            Past Time Entertainent
+            Past Time Entertainment
           </span>
         </h2>
         <p className="card-text my-3 p-3 ">
@@ -23,9 +24,13 @@ const AboutCard = () => {
           thrilling journey, where we transform ordinary events into
           extraordinary memories and elevate your brand to new heights
         </p>
-        <button className="btn-outline-danger btn rounded-0 text-light">
-          Know More About Us 
-        </button>
+
+        <Link
+          to="what-we-do"
+          className="btn-outline-danger btn rounded-0 text-light"
+        >
+          Know More About Us
+        </Link>
       </div>
     </div>
   );

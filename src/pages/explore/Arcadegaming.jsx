@@ -3,64 +3,64 @@ import ProductPage from "../../components/ProductPage";
 
 const Arcadegaming = () => {
   const keypoints = [
-    "Immersive Experience: VR cricket offers players a highly immersive experience by using VR headsets and controllers. This allows them to feel like they are actually on the cricket field, facing bowlers, and batting or bowling in a virtual world.",
-    "Gameplay Simulation: VR cricket games are designed to simulate the actual rules and mechanics of cricket. Players can bat, bowl, and field as they would in a real cricket match. The gameplay aims to replicate the nuances of the sport.",
-    "Training Tool: VR cricket can also be used as a training tool for cricketers to improve their skills. It provides a controlled environment where players can practice their batting and bowling techniques without the need for a physical cricket pitch.",
-    "Entertainment: Besides training, VR cricket is also used for entertainment purposes. It allows cricket fans to experience the excitement of the sport from the comfort of their homes. There are various VR cricket games and experiences available for gaming enthusiasts.",
-    "Technology Requirements: To play VR cricket, you'll need a VR headset (such as Oculus Rift, HTC Vive, or PlayStation VR) and compatible hardware. These headsets typically track the movement of your head and hands, enabling you to interact with the virtual environment.",
+    "Arcade Machines: Arcade games are played on dedicated gaming machines or cabinets found in arcades. These machines come in various shapes and sizes, each designed for a specific game.",
+    "Coin-Operated: Arcade games traditionally required players to insert coins or tokens to start a game. The goal was to achieve a high score within the time limit or with a limited number of lives.",
+    "Classic Arcade Games: The history of arcade gaming includes iconic classics such as Pac-Man, Space Invaders, Galaga, Donkey Kong, Street Fighter II, and many others. These games have left a lasting impact on the gaming industry.",
+    "Game Variety: Arcade games cover a wide range of genres, including shooters, platformers, racing, sports, fighting, rhythm, and puzzle games. They are designed to appeal to a broad audience.",
+    "Evolution of Arcade Gaming: While traditional arcades still exist, arcade gaming has evolved beyond physical locations. Today, many arcade-style games are available on gaming consoles, PCs, and mobile devices.",
   ];
   const about =
-    "Virtual Reality (VR) cricket refers to a form of the sport of cricket that is experienced through virtual reality technology. In VR cricket, players can immerse themselves in a realistic virtual environment that simulates the cricket field and gameplay";
+    "Arcade games are typically designed for short play sessions and are known for their straightforward gameplay, fast-paced action, and competitive nature. ";
 
   const usageText =
-    "Virtual Reality (VR) cricket is a technology-driven experience that combines the immersive world of virtual reality with the sport of cricket. It offers several usage scenarios and applications:";
+    "Arcade gaming has various usages and appeals to a wide range of individuals. Here are some common uses and aspects of arcade gaming";
 
   const usage = [
-    "Entertainment and Recreation: Gaming: VR cricket games provide an immersive and interactive way for cricket enthusiasts to play their favorite sport in virtual environments. Fun and Leisure: VR cricket can be a recreational activity for friends and family, offering entertainment at home or at VR gaming centers.",
-    "Skill Development: Training: VR cricket simulations can be used for training purposes, helping players improve their batting, bowling, and fielding techniques. Strategy: Coaches and teams can use VR cricket to develop and test strategies for different game situations",
-    "Fan Engagement: Fan Zones: Sports events and stadiums often set up VR cricket zones where fans can experience the sport in an immersive way. Promotions: VR cricket experiences can be used for promotional events by sports teams, sponsors, or broadcasters to engage fans and promote their products or services.",
-    "Marketing and Branding: Product Launches: Companies in the sports and gaming industry can use VR cricket to launch new products or campaigns. Experiential Marketing: Brands can leverage VR cricket to create memorable brand experiences at trade shows and events",
-    "Events and Tournaments: Exhibitions: VR cricket can be a part of exhibitions and trade shows to attract visitors and create engagement. Tournaments: Organizing VR cricket tournaments at events can generate excitement and competition among participants.",
+    "Entertainment: The primary usage of arcade gaming is for entertainment. People visit arcades to have fun, relax, and enjoy a wide variety of games. Arcade games are designed to be engaging and offer quick, adrenaline-pumping experiences.",
+    "Social Interaction: Arcades often serve as social hubs where friends and family gather to play games together. Multiplayer arcade games allow players to compete or cooperate, fostering social interaction and friendly competition.",
+    "Skill Development: Arcade gaming requires players to develop various skills such as hand-eye coordination, reflexes, strategy, and problem-solving. Gamers aim to improve their skills and achieve high scores.",
+    "Physical Activity: Some arcade games, such as dance games, rhythm games, and sports simulations, require physical activity and movement. These games provide an entertaining way to exercise and stay active.",
+    "Arcade Collecting: Some enthusiasts collect classic arcade machines and cabinets as a hobby. Restoring and maintaining these vintage machines is a passion for collectors and preservationists.",
   ];
 
   const faqs = [
     {
       number: "One",
-      question: "What is VR cricket for events?",
+      question: "What is arcade gaming?",
       answer:
-        "VR cricket for events refers to the use of virtual reality cricket simulations as entertainment or engagement activities at various gatherings, exhibitions, and functions.",
+        "Arcade gaming refers to playing video games on coin-operated machines called arcade cabinets, typically found in public places like arcades, amusement parks, and entertainment venues.",
     },
     {
       number: "Two",
-      question: "What types of events can incorporate VR cricket?",
+      question: "How do arcade games work?",
       answer:
-        "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+        "Arcade games require players to insert coins or tokens to start a game. Players then use controls (such as a joystick and buttons) to interact with the game. The goal is often to achieve a high score, complete levels, or accomplish specific objectives within the game's time limit.",
     },
     {
       number: "Three",
       question:
-        "Do event attendees need prior experience with VR to play VR cricket?",
+        "Are arcades still popular today?",
       answer:
-        "No, VR cricket experiences can be designed to cater to both experienced VR users and beginners. Many VR cricket setups include tutorials for newcomers.",
+        "Yes, many classic arcade games have been adapted for gaming consoles, PCs, and mobile devices. Some of these adaptations faithfully replicate the arcade experience, while others offer updated graphics and gameplay.",
     },
     {
       number: "Four",
-      question: "Is VR cricket suitable for all age groups?",
+      question: "Is arcade gaming suitable for all ages?",
       answer:
-        "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+        "Yes, arcade gaming is suitable for players of all ages. Many arcades have games designed for children, families, and adults, allowing everyone to enjoy the experience.",
     },
     {
       number: "Five",
       question:
-        "How many people can play VR cricket simultaneously at an event?",
+        "Are arcade games educational?",
       answer:
-        "The number of participants depends on the setup and available equipment. Events can have multiple VR stations to accommodate several players simultaneously.",
+        "While arcade games are primarily designed for entertainment, some educational games are available in arcades. These games may focus on teaching specific skills or knowledge in a fun and interactive way.",
     },
   ];
   return (
     <div>
       <ProductPage
-        title={"VR Cricket"}
+        title={"Arcade Gaming"}
         keypoints={keypoints}
         about={about}
         usageText={usageText}

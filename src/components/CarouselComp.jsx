@@ -34,22 +34,22 @@ const CarouselComp = () => {
         <div className="carousel-item active" data-bs-interval="10000">
           <img src={img} className="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Get The Best VR Experience With Us</h5>
+            <p><button className="btn btn-outline-light">Explore</button></p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
           <img src={img} className="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Want To Get In the World Of Simulator</h5>
+            <p><button className="btn btn-outline-light">Explore</button></p>
           </div>
         </div>
         <div className="carousel-item">
           <img src={img} className="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>We Also Offer Intensive Training</h5>
+            <p><button className="btn btn-outline-light">Check Out</button></p>
           </div>
         </div>
       </div>

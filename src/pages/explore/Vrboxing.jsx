@@ -1,66 +1,64 @@
-import React from 'react'
+import React from "react";
 import ProductPage from "../../components/ProductPage";
 
 const Vrboxing = () => {
-    const keypoints = [
-        "Immersive Experience: VR cricket offers players a highly immersive experience by using VR headsets and controllers. This allows them to feel like they are actually on the cricket field, facing bowlers, and batting or bowling in a virtual world.",
-        "Gameplay Simulation: VR cricket games are designed to simulate the actual rules and mechanics of cricket. Players can bat, bowl, and field as they would in a real cricket match. The gameplay aims to replicate the nuances of the sport.",
-        "Training Tool: VR cricket can also be used as a training tool for cricketers to improve their skills. It provides a controlled environment where players can practice their batting and bowling techniques without the need for a physical cricket pitch.",
-        "Entertainment: Besides training, VR cricket is also used for entertainment purposes. It allows cricket fans to experience the excitement of the sport from the comfort of their homes. There are various VR cricket games and experiences available for gaming enthusiasts.",
-        "Technology Requirements: To play VR cricket, you'll need a VR headset (such as Oculus Rift, HTC Vive, or PlayStation VR) and compatible hardware. These headsets typically track the movement of your head and hands, enabling you to interact with the virtual environment.",
-      ];
-      const about =
-        "Virtual Reality (VR) cricket refers to a form of the sport of cricket that is experienced through virtual reality technology. In VR cricket, players can immerse themselves in a realistic virtual environment that simulates the cricket field and gameplay";
-    
-      const usageText =
-        "Virtual Reality (VR) cricket is a technology-driven experience that combines the immersive world of virtual reality with the sport of cricket. It offers several usage scenarios and applications:";
-    
-      const usage = [
-        "Entertainment and Recreation: Gaming: VR cricket games provide an immersive and interactive way for cricket enthusiasts to play their favorite sport in virtual environments. Fun and Leisure: VR cricket can be a recreational activity for friends and family, offering entertainment at home or at VR gaming centers.",
-        "Skill Development: Training: VR cricket simulations can be used for training purposes, helping players improve their batting, bowling, and fielding techniques. Strategy: Coaches and teams can use VR cricket to develop and test strategies for different game situations",
-        "Fan Engagement: Fan Zones: Sports events and stadiums often set up VR cricket zones where fans can experience the sport in an immersive way. Promotions: VR cricket experiences can be used for promotional events by sports teams, sponsors, or broadcasters to engage fans and promote their products or services.",
-        "Marketing and Branding: Product Launches: Companies in the sports and gaming industry can use VR cricket to launch new products or campaigns. Experiential Marketing: Brands can leverage VR cricket to create memorable brand experiences at trade shows and events",
-        "Events and Tournaments: Exhibitions: VR cricket can be a part of exhibitions and trade shows to attract visitors and create engagement. Tournaments: Organizing VR cricket tournaments at events can generate excitement and competition among participants.",
-      ];
-    
-      const faqs = [
-        {
-          number: "One",
-          question: "What is VR cricket for events?",
-          answer:
-            "VR cricket for events refers to the use of virtual reality cricket simulations as entertainment or engagement activities at various gatherings, exhibitions, and functions.",
-        },
-        {
-          number: "Two",
-          question: "What types of events can incorporate VR cricket?",
-          answer:
-            "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
-        },
-        {
-          number: "Three",
-          question:
-            "Do event attendees need prior experience with VR to play VR cricket?",
-          answer:
-            "No, VR cricket experiences can be designed to cater to both experienced VR users and beginners. Many VR cricket setups include tutorials for newcomers.",
-        },
-        {
-          number: "Four",
-          question: "Is VR cricket suitable for all age groups?",
-          answer:
-            "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
-        },
-        {
-          number: "Five",
-          question:
-            "How many people can play VR cricket simultaneously at an event?",
-          answer:
-            "The number of participants depends on the setup and available equipment. Events can have multiple VR stations to accommodate several players simultaneously.",
-        },
-      ];
+  const keypoints = [
+    "Immersive Virtual Environment: VR boxing games create a virtual boxing ring and arena where players can see and interact with their opponents and surroundings. The use of VR headsets provides a 360-degree view of the virtual world.",
+    "Motion Tracking: VR boxing games typically use motion tracking technology to capture the movements of the player's hands and body. This allows players to throw punches, block, and dodge just as they would in a real boxing match.",
+    "Realistic Boxing Mechanics: The games aim to simulate the mechanics of boxing, including jabs, hooks, uppercuts, and body shots. Players need to use proper boxing techniques and strategy to defeat their opponents.",
+    "Fitness and Exercise: VR boxing gaming can provide a physically demanding workout, making it an appealing option for those looking to incorporate exercise into their gaming routine.",
+    "Equipment: To play VR boxing games, players typically need a VR headset (such as Oculus Rift, HTC Vive, or PlayStation VR) and motion controllers that track hand movements.",
+  ];
+  const about =
+    "VR boxing gaming is a subgenre of virtual reality (VR) gaming that allows players to step into the boxing ring and experience the sport of boxing in an immersive virtual environment. It combines the physical movements of the player with the visual and audio elements of VR technology to create a realistic and engaging boxing experience.";
+
+  const usageText =
+    "VR boxing gaming can be used for various purposes, catering to different needs and interests. Here are some common ways in which VR boxing gaming is used:";
+
+  const usage = [
+    "Entertainment: The primary use of VR boxing gaming is for entertainment. Players can enjoy an immersive and engaging boxing experience, competing against virtual opponents in a realistic virtual environment. It offers a fun and challenging gaming experience.",
+    "Physical Fitness: VR boxing gaming provides an effective and enjoyable way to incorporate physical exercise into one's routine. Players engage in physical movements, such as punching, dodging, and blocking, which can provide a cardio workout and help improve stamina and coordination.",
+    "Skill Development: VR boxing games offer an opportunity for players to develop and refine their boxing skills and techniques. This includes practicing various punches, footwork, and defensive maneuvers.",
+    "Rehabilitation and Physical Therapy: VR boxing games have been used in physical therapy and rehabilitation settings to help individuals recover from injuries or surgeries. They can aid in the improvement of range of motion, strength, and coordination.",
+    "Mixed Martial Arts (MMA) Training: In addition to traditional boxing, some VR games simulate MMA and mixed combat sports, allowing users to practice various martial arts disciplines.",
+  ];
+
+  const faqs = [
+    {
+      number: "One",
+      question: "How does VR boxing work?",
+      answer:
+        "VR boxing works by using motion tracking technology to capture the player's movements. Players wear a VR headset that provides a 3D virtual environment, and they use motion controllers to mimic boxing movements like punching, blocking, and dodging.",
+    },
+    {
+      number: "Two",
+      question: "Can I compete against others in VR boxing?",
+      answer:
+        "Many VR boxing games offer multiplayer modes, allowing players to compete against friends or other gamers online. This adds a competitive aspect to the gaming experience.",
+    },
+    {
+      number: "Three",
+      question: "Is VR boxing safe?",
+      answer:
+        "VR boxing is generally safe, but it's essential to follow safety guidelines. Ensure you have enough space to move without colliding with objects or people, and take breaks to prevent motion sickness or fatigue.",
+    },
+    {
+      number: "Four",
+      question: "Do I need prior boxing experience to play VR boxing games?",
+      answer:
+        "No prior boxing experience is required to enjoy VR boxing games. These games are designed to be accessible to players of all skill levels, from beginners to experienced boxers.",
+    },
+    {
+      number: "Five",
+      question: "What equipment do I need to play VR boxing games?",
+      answer:
+        "To play VR boxing games, you typically need a VR headset (e.g., Oculus Rift, HTC Vive, PlayStation VR), motion controllers, and a compatible gaming PC or console. Some VR boxing games may also require additional accessories like boxing gloves or hand straps.",
+    },
+  ];
   return (
     <div>
-        <ProductPage
-        title={"VR Cricket"}
+      <ProductPage
+        title={"VR Boxing"}
         keypoints={keypoints}
         about={about}
         usageText={usageText}
@@ -68,7 +66,7 @@ const Vrboxing = () => {
         faqs={faqs}
       />
     </div>
-  )
-}
+  );
+};
 
-export default Vrboxing
+export default Vrboxing;

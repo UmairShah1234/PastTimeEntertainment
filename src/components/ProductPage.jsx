@@ -5,7 +5,7 @@ const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
   return (
     <div className="bg-dark text-light p-3">
       <div className="container">
-        <h2>VR Cricket</h2>
+        <h2>{title}</h2>
 
         <div className="my-3">
           {/* header div */}
@@ -127,149 +127,7 @@ const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
                   </div>
                 );
               })}
-              {/* <div className="accordion-item bg-dark">
-                <h2 className="accordion-header bg-dark">
-                  <button
-                    className="accordion-button bg-dark text-light"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    What is VR cricket for events?
-                  </button>
-                </h2>
-                <div
-                  id="collapseOne"
-                  className="accordion-collapse collapse  bg-dark"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body text-light">
-                    <div className="mb-3 ">
-                      VR cricket for events refers to the use of virtual reality
-                      cricket simulations as entertainment or engagement
-                      activities at various gatherings, exhibitions, and
-                      functions.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-item bg-dark">
-                <h2 className="accordion-header bg-dark">
-                  <button
-                    className="accordion-button collapsed bg-dark text-light"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    What types of events can incorporate VR cricket?
-                  </button>
-                </h2>
-                <div
-                  id="collapseTwo"
-                  className="accordion-collapse collapse bg-dark"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body bg-dark text-light">
-                    <div className="mb-3">
-                      VR cricket can be integrated into a wide range of events,
-                      including corporate meetings, trade shows, sports fan
-                      zones, product launches, team-building exercises, and
-                      entertainment events.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-item bg-dark">
-                <h2 className="accordion-header bg-dark">
-                  <button
-                    className="accordion-button collapsed bg-dark text-light"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFive"
-                    aria-expanded="false"
-                    aria-controls="collapseFive"
-                  >
-                    Do event attendees need prior experience with VR to play VR
-                    cricket?
-                  </button>
-                </h2>
-                <div
-                  id="collapseFive"
-                  className="accordion-collapse collapse bg-dark"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body bg-dark text-light">
-                    <div className="mb-3">
-                      No, VR cricket experiences can be designed to cater to
-                      both experienced VR users and beginners. Many VR cricket
-                      setups include tutorials for newcomers.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-item bg-dark">
-                <h2 className="accordion-header bg-dark">
-                  <button
-                    className="accordion-button collapsed bg-dark text-light"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour"
-                    aria-expanded="false"
-                    aria-controls="collapseFour"
-                  >
-                    Is VR cricket suitable for all age groups?
-                  </button>
-                </h2>
-                <div
-                  id="collapseFour"
-                  className="accordion-collapse collapse bg-dark"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body bg-dark text-light">
-                    <div className="mb-3">
-                      VR cricket can be integrated into a wide range of events,
-                      including corporate meetings, trade shows, sports fan
-                      zones, product launches, team-building exercises, and
-                      entertainment events.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="accordion-item bg-dark">
-                <h2 className="accordion-header bg-dark">
-                  <button
-                    className="accordion-button collapsed bg-dark text-light"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree"
-                    aria-expanded="false"
-                    aria-controls="collapseThree"
-                  >
-                    How many people can play VR cricket simultaneously at an
-                    event?
-                  </button>
-                </h2>
-                <div
-                  id="collapseThree"
-                  className="accordion-collapse collapse bg-dark"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div className="accordion-body bg-dark text-light">
-                    <div className="mb-3">
-                      The number of participants depends on the setup and
-                      available equipment. Events can have multiple VR stations
-                      to accommodate several players simultaneously.
-                    </div>
-                  </div>
-                </div>
-              </div> */}
+            
             </div>
           </div>
         </div>

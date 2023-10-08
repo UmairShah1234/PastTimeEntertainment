@@ -3,64 +3,64 @@ import ProductPage from "../../components/ProductPage";
 
 const Gamingpc = () => {
   const keypoints = [
-    "Immersive Experience: VR cricket offers players a highly immersive experience by using VR headsets and controllers. This allows them to feel like they are actually on the cricket field, facing bowlers, and batting or bowling in a virtual world.",
-    "Gameplay Simulation: VR cricket games are designed to simulate the actual rules and mechanics of cricket. Players can bat, bowl, and field as they would in a real cricket match. The gameplay aims to replicate the nuances of the sport.",
-    "Training Tool: VR cricket can also be used as a training tool for cricketers to improve their skills. It provides a controlled environment where players can practice their batting and bowling techniques without the need for a physical cricket pitch.",
-    "Entertainment: Besides training, VR cricket is also used for entertainment purposes. It allows cricket fans to experience the excitement of the sport from the comfort of their homes. There are various VR cricket games and experiences available for gaming enthusiasts.",
-    "Technology Requirements: To play VR cricket, you'll need a VR headset (such as Oculus Rift, HTC Vive, or PlayStation VR) and compatible hardware. These headsets typically track the movement of your head and hands, enabling you to interact with the virtual environment.",
+    "Game Library: PC gaming boasts a vast and diverse game library. Gamers have access to a wide range of titles, including AAA games, indie games, retro classics, and emulators for older consoles.",
+    "Graphics and Performance: PCs can provide superior graphics and performance compared to consoles. High-end GPUs and CPUs allow for high-quality visuals, high frame rates, and support for advanced graphical features like ray tracing.",
+    "Online Multiplayer: Online multiplayer gaming is a significant part of PC gaming. Gamers can connect with others worldwide for competitive or cooperative gaming experiences. Online platforms like Steam and Discord facilitate this.",
+    "Hardware Flexibility: PC gaming allows gamers to customize and upgrade their gaming hardware to meet their specific preferences and needs. Gamers can choose their CPU, GPU, RAM, storage, and peripherals, tailoring their system for optimal performance and experience.",
+    "Esports and Competitive Gaming: PC gaming is at the forefront of competitive gaming, with many esports titles played professionally on PCs. Popular esports titles include League of Legends, Dota 2, Counter-Strike: Global Offensive, and Overwatch.",
   ];
   const about =
-    "Virtual Reality (VR) cricket refers to a form of the sport of cricket that is experienced through virtual reality technology. In VR cricket, players can immerse themselves in a realistic virtual environment that simulates the cricket field and gameplay";
+    "PC gaming, or personal computer gaming, refers to the activity of playing video games on a personal computer. It has been a popular form of gaming for decades and offers numerous advantages and features that set it apart from other gaming platforms.";
 
   const usageText =
-    "Virtual Reality (VR) cricket is a technology-driven experience that combines the immersive world of virtual reality with the sport of cricket. It offers several usage scenarios and applications:";
+    "The usage of a gaming PC is centered around playing video games on a personal computer optimized for gaming performance. However, gaming PCs can serve various other purposes and activities beyond gaming. Here are some common uses of a gaming PC:";
 
   const usage = [
-    "Entertainment and Recreation: Gaming: VR cricket games provide an immersive and interactive way for cricket enthusiasts to play their favorite sport in virtual environments. Fun and Leisure: VR cricket can be a recreational activity for friends and family, offering entertainment at home or at VR gaming centers.",
-    "Skill Development: Training: VR cricket simulations can be used for training purposes, helping players improve their batting, bowling, and fielding techniques. Strategy: Coaches and teams can use VR cricket to develop and test strategies for different game situations",
-    "Fan Engagement: Fan Zones: Sports events and stadiums often set up VR cricket zones where fans can experience the sport in an immersive way. Promotions: VR cricket experiences can be used for promotional events by sports teams, sponsors, or broadcasters to engage fans and promote their products or services.",
-    "Marketing and Branding: Product Launches: Companies in the sports and gaming industry can use VR cricket to launch new products or campaigns. Experiential Marketing: Brands can leverage VR cricket to create memorable brand experiences at trade shows and events",
-    "Events and Tournaments: Exhibitions: VR cricket can be a part of exhibitions and trade shows to attract visitors and create engagement. Tournaments: Organizing VR cricket tournaments at events can generate excitement and competition among participants.",
+    "Playing Video Games: The primary purpose of a gaming PC is to play video games. Gamers can enjoy a wide variety of titles, ranging from graphically demanding AAA games to indie games and classic retro titles.",
+    "Platform Diversity: PC gaming is incredibly diverse and not limited to a single platform or manufacturer. Gamers can play on Windows-based PCs, Macs, or even Linux systems, depending on the game's compatibility.",
+    "Single-Player and Storytelling: PC games are known for their strong single-player experiences and storytelling. Titles like The Witcher 3, Skyrim, and Mass Effect are celebrated for their immersive narratives and character development.",
+    "Community and Forums: PC gaming communities are active and supportive, with dedicated forums, subreddits, and social media groups where gamers can share experiences, seek help, and discuss their favorite titles.",
+    "Hardware Customization: PC gamers can build or customize their gaming rigs to suit their preferences and needs. This flexibility allows for a personalized gaming experience.",
   ];
 
   const faqs = [
     {
       number: "One",
-      question: "What is VR cricket for events?",
+      question: "What is PC gaming?",
       answer:
-        "VR cricket for events refers to the use of virtual reality cricket simulations as entertainment or engagement activities at various gatherings, exhibitions, and functions.",
+        "PC gaming refers to playing video games on a personal computer, including desktops and laptops. It encompasses a wide range of gaming genres and experiences.",
     },
     {
       number: "Two",
-      question: "What types of events can incorporate VR cricket?",
+      question: "Do I need a powerful gaming PC to play games?",
       answer:
-        "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+        "The level of PC performance required depends on the specific game you want to play. Some games can run on low-end hardware, while others demand high-end gaming rigs for optimal performance and graphics quality.",
     },
     {
       number: "Three",
       question:
-        "Do event attendees need prior experience with VR to play VR cricket?",
+        "What operating system is best for PC gaming?",
       answer:
-        "No, VR cricket experiences can be designed to cater to both experienced VR users and beginners. Many VR cricket setups include tutorials for newcomers.",
+        "Most PC games are designed for Windows operating systems (e.g., Windows 10 or Windows 11), but there are also games compatible with macOS and Linux. Windows is the most widely used OS for gaming due to its extensive game library.",
     },
     {
       number: "Four",
-      question: "Is VR cricket suitable for all age groups?",
+      question: "How can I join the PC gaming community and find gaming friends?",
       answer:
-        "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+        "You can join online gaming communities, forums, and social media groups dedicated to PC gaming. Platforms like Steam and Discord also offer features for connecting with friends and finding gaming groups.",
     },
     {
       number: "Five",
       question:
-        "How many people can play VR cricket simultaneously at an event?",
+        "What is the difference between PC gaming and console gaming?",
       answer:
-        "The number of participants depends on the setup and available equipment. Events can have multiple VR stations to accommodate several players simultaneously.",
+        "PC gaming offers more hardware customization options, a wider game library, better graphics and performance potential, and a thriving modding community. Console gaming, on the other hand, provides a more standardized and user-friendly experience.",
     },
   ];
   return (
     <div>
       <ProductPage
-        title={"VR Cricket"}
+        title={"Gaming PC"}
         keypoints={keypoints}
         about={about}
         usageText={usageText}
