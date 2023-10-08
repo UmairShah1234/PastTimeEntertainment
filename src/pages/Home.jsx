@@ -3,6 +3,7 @@ import Title from "../components/Title";
 import ProductCard from "../components/ProductCard";
 import CarouselComp from "../components/CarouselComp";
 import AboutCard from "../components/AboutCard";
+import HoverEvents from "../components/HoverEvents";
 
 const Home = () => {
   return (
@@ -50,6 +51,10 @@ const Home = () => {
       </div>
 
       {/* events section */}
+
+      <div className="container mb-5">
+        <HoverEvents />
+      </div>
     </div>
   );
 };

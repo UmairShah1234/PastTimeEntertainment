@@ -1,7 +1,9 @@
 import { KeyboardArrowRight } from "@mui/icons-material";
 import React from "react";
+import { Link } from "react-router-dom";
 
-const ProductCard = ({ title, desc }) => {
+
+const ProductCard = ({ title, desc,links }) => {
   return (
     <div className="card bg-dark shadow-lg p-1 mx-1" style={{ width: "20rem" }}>
       <img
@@ -12,10 +14,11 @@ const ProductCard = ({ title, desc }) => {
         <div className="card-title">
           <h2>{title}</h2>
         </div>
-        <div className="card-title p-1">{desc.substring(0,70)}...</div>
-        <button className="btn btn-outline-danger card-text text-light rounded-0 ">
+        <div className="card-title p-1">{desc.substring(0, 70)}...</div>
+
+        <Link to={links} className="btn btn-outline-danger card-text text-light rounded-0">
           Explore <KeyboardArrowRight />
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -5,15 +5,16 @@ const CarouselComp = () => {
   return (
     <div
       id="carouselExampleInterval"
-      className="carousel slide"
+      className="carousel slide" 
       data-bs-ride="carousel"
+      style={{ height: "95vh"}}
     >
-      <div class="carousel-indicators">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -32,23 +33,23 @@ const CarouselComp = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src={img} className="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Get The Best VR Experience With Us</h5>
+          <img src={img} style={{ height: "95vh"}}  className="position-relative d-block w-100" alt="..." />
+          <div style={{ }} className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
+            <h2>Get The Best VR Experience With Us</h2>
             <p><button className="btn btn-outline-light">Explore</button></p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src={img} className="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Want To Get In the World Of Simulator</h5>
+        <img src={img} style={{ height: "95vh"}}  className="position-relative d-block w-100" alt="..." />
+          <div style={{ }} className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
+            <h2>Want To Get In the World Of Simulator</h2>
             <p><button className="btn btn-outline-light">Explore</button></p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src={img} className="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>We Also Offer Intensive Training</h5>
+        <img src={img} style={{ height: "95vh"}}  className="position-relative d-block w-100" alt="..." />
+          <div style={{ }} className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
+            <h2>We Also Offer Intensive Training</h2>
             <p><button className="btn btn-outline-light">Check Out</button></p>
           </div>
         </div>

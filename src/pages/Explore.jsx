@@ -10,7 +10,7 @@ const Explore = () => {
         <hr />
         <div className="row row-cols-lg-4 row-cols-1">
           {products.map((product) => {
-            return <ProductCard key={product.id} title={product.title} desc={product.desc}/>;
+            return <ProductCard key={product.id} title={product.title} desc={product.desc} links={product.path}/>;
           })}
      
         </div>

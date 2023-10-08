@@ -71,4 +71,4 @@ const Racing = () => {
   )
 }
 
-export default Racing
+export default Racing;

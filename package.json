@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start-client": "vite",
+  "start-server": "node server.js",
+  "start-dev": "concurrently \"npm run start-client\" \"npm run start-server\"",
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

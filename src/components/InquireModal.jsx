@@ -61,35 +61,35 @@ const InquireModal = () => {
             <form action="" onSubmit={handleSubmit}>
               <div className="modal-body">
                 {showSuccessAlert && (
-        <div
-          className="alert alert-success alert-dismissible fade show"
-          role="alert"
-        >
-          <strong>Thank you!</strong> For submitting your information we will
-          get back to you soon.
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          />
-        </div>
-      )}
-      {showErrorAlert && (
-        <div
-          className="alert alert-danger alert-dismissible fade show"
-          role="alert"
-        >
-          <strong>Oops!</strong>There was some problem while submitting the
-          form, Please try Submitting again.
-          <button
-            type="button"
-            className="btn-close"
-            data-bs-dismiss="alert"
-            aria-label="Close"
-          />
-        </div>
-      )}
+                  <div
+                    className="alert alert-success alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>Thank you!</strong> For submitting your information
+                    we will get back to you soon.
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    />
+                  </div>
+                )}
+                {showErrorAlert && (
+                  <div
+                    className="alert alert-danger alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>Oops!</strong>There was some problem while
+                    submitting the form, Please try Submitting again.
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    />
+                  </div>
+                )}
                 <div>
                   <div class="form-floating mb-3">
                     <input

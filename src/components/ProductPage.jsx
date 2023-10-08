@@ -1,7 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import Avatar from "@mui/material/Avatar";
+import axios from "axios";
 
 const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
+  const [showSuccessAlert, setShowSuccessAlert] = useState(false);
+  const [showErrorAlert, setShowErrorAlert] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log("formSubmit called");
+    try {
+      await axios.post("http://localhost:5000/api/send-inquiry", formData);
+      setShowSuccessAlert(true);
+
+      setFormData({
+        name: "",
+        email: "",
+
+        message: "",
+      });
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setShowErrorAlert(true);
+    }
+  };
   return (
     <div className="bg-dark text-light p-3">
       <div className="container">
@@ -61,36 +95,71 @@ const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
               style={{ width: "35rem" }}
             >
               <div className="container p-3">
-                <form action="">
-                  <form>
-                    <div className="mb-3">
-                      <label for="exampleInputEmail1" className="form-label">
-                        Email address
-                      </label>
-                      <input
-                        type="email"
-                        className="form-control text-light bg-dark"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                      />
-                      <div id="emailHelp" className="form-text">
-                        We'll never share your email with anyone else.
-                      </div>
+              {showSuccessAlert && (
+                  <div
+                    className="alert alert-success alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>Thank you!</strong> For submitting your information
+                    we will get back to you soon.
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    />
+                  </div>
+                )}
+                {showErrorAlert && (
+                  <div
+                    className="alert alert-danger alert-dismissible fade show"
+                    role="alert"
+                  >
+                    <strong>Oops!</strong>There was some problem while
+                    submitting the form, Please try Submitting again.
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    />
+                  </div>
+                )}
+               
+                <form action="" onSubmit={handleSubmit}>
+                  <div className="mb-3">
+                    <label for="exampleInputEmail1" className="form-label">
+                      Email address
+                    </label>
+                    <input
+                      type="email"
+                      className="form-control text-light bg-dark"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                    <div id="emailHelp" className="form-text">
+                      We'll never share your email with anyone else.
                     </div>
-                    <div className="mb-3">
-                      <label for="message" className="form-label">
-                        Want to Know More Or Inquire About VR Cricket
-                      </label>
-                      <textarea
-                        className="form-control bg-dark text-light"
-                        id="message"
-                      />
-                    </div>
+                  </div>
+                  <div className="mb-3">
+                    <label for="message" className="form-label">
+                      Want to Know More Or Inquire About VR Cricket
+                    </label>
+                    <textarea
+                      className="form-control bg-dark text-light"
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
+                    />
+                  </div>
 
-                    <button type="submit" className="btn btn-primary">
-                      Submit
-                    </button>
-                  </form>
+                  <button type="submit" className="btn btn-primary">
+                    Submit
+                  </button>
                 </form>
               </div>
             </div>
@@ -127,7 +196,6 @@ const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
                   </div>
                 );
               })}
-            
             </div>
           </div>
         </div>

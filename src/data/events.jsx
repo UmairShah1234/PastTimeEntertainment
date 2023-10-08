@@ -10,8 +10,8 @@ const events = {
 
   Flight_Simulator: {
     img: [
-      "/src/assets/Simply Gaming Event Galleria/AR Sports Experience/IMG20221120192100.jpg",
       "/src/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20230901-WA0007.jpg",
+      "/src/assets/Simply Gaming Event Galleria/AR Sports Experience/IMG20221120192100.jpg",
       "/src/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20220731-WA0005.jpg",
     ],
     title: "Flight Simulator",
@@ -50,11 +50,11 @@ const events = {
   },
   Racing_Simulator: {
     img: [
+      "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20230526_124125.jpg",
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/20230811_131650.jpg",
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230804-WA0014.jpg",
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230906-WA0000.jpg",
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20220703_191203.jpg",
-      "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20230526_124125.jpg",
     ],
     title: "Racing Simulator",
     desc: "A racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators. These events are designed to replicate the excitement and realism of actual racing while offering a safe and accessible environment for racing enthusiasts of all levels.",
@@ -76,8 +76,8 @@ const events = {
   Retro_Gaming: {
     img: [
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/20230811_131650.jpg",
-      "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230804-WA0014.jpg",
       "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230906-WA0000.jpg",
+      "/src/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230804-WA0014.jpg",
       "/src/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Cricket Experience/IMG_20230617_165033.jpg",
       "/src/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Rollercoaster Experience/IMG_20230121_151214.jpg",
       "/src/assets/Simply Gaming Event Galleria/Virtual Reality Experience/Walk the Plank Experience/IMG_20230809_164407.jpg",
