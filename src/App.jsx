@@ -38,7 +38,7 @@
         },
         {
           path: "/explore",
-          element: <Vrcricket />,
+          element: <Explore />,
           children: [
             {
               path: "vrcricket",
