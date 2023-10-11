@@ -34,14 +34,14 @@ const CarouselComp = () => {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
           <img src={img} style={{ height: "95vh"}}  className="position-relative d-block w-100" alt="..." />
-          <div style={{ }} className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
+          <div className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
             <h2>Get The Best VR Experience With Us</h2>
             <p><button className="btn btn-outline-light">Explore</button></p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
         <img src={img} style={{ height: "95vh"}}  className="position-relative d-block w-100" alt="..." />
-          <div style={{ }} className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
+          <div  className="w-25 carousel-caption position-absolute bottom-50 end-100 d-none d-md-block">
             <h2>Want To Get In the World Of Simulator</h2>
             <p><button className="btn btn-outline-light">Explore</button></p>
           </div>

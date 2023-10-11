@@ -39,9 +39,9 @@ const Footer = () => {
                 <h2 className="">Contacts</h2>
                 <div className="col list-group">
                   <Link to={`mailto:${emailAddress}`} className="mb-3 text-decoration-none text-white">simplygaming@gmail.com</Link>
-                  <div className="mb-3">simplygaming.in</div>
-                  <div className="mb-3">simplygaming@facebook</div>
-                  <div className="mb-3">+91 99877 94974</div>
+                  <Link to="/" className="mb-3">simplygaming.in</Link>
+                  <Link to="/" className="mb-3">simplygaming@facebook</Link>
+                  <Link to="/" className="mb-3">+91 99877 94974</Link>
                 </div>
               </div>
             </div>
@@ -68,16 +68,16 @@ const Footer = () => {
                 className="accordion-collapse collapse  bg-dark"
                 data-bs-parent="#accordionExample"
               >
-                <div className="accordion-body text-light">
-                  <Link to="/"  className="mb-3 ">Home</Link>
-                  <Link to="/" className="mb-3">Products</Link>
-                  <Link to="/" className="mb-3">Events</Link>
-                  <Link to="/" className="mb-3">Training</Link>
+                <div className="accordion-body ms-3 text-light col list-group">
+                  <Link to="/"  className="mb-3 text-decoration-none text-white ">Home</Link>
+                  <Link to="/explore" className="mb-3 text-decoration-none text-white">Products</Link>
+                  <Link to="/events" className="mb-3 text-decoration-none text-white">Events</Link>
+                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white">Training</Link>
                 </div>
               </div>
             </div>
             <div className="accordion-item bg-dark">
-              <h2 className="accordion-header bg-dark">
+              <h2 className=" accordion-header bg-dark">
                 <button
                   className="accordion-button collapsed bg-dark text-light"
                   type="button"
@@ -94,11 +94,11 @@ const Footer = () => {
                 className="accordion-collapse collapse bg-dark"
                 data-bs-parent="#accordionExample"
               >
-                <div className="accordion-body bg-dark text-light">
-                  <div className="mb-3">FAQs</div>
-                  <div className="mb-3">Review</div>
-                  <div className="mb-3">Training</div>
-                  <div className="mb-3">About</div>
+                <div className="accordion-body ms-3 col list-group bg-dark text-light">
+                  <Link to="/" className="mb-3 text-decoration-none text-white">FAQs</Link>
+                  <Link to="events" className="mb-3 text-decoration-none text-white">Review</Link>
+                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white">Training</Link>
+                  <Link to="/what-we-do" className="mb-3 text-decoration-none text-white">About</Link>
                 </div>
               </div>
             </div>
@@ -120,11 +120,11 @@ const Footer = () => {
                 className="accordion-collapse collapse bg-dark"
                 data-bs-parent="#accordionExample"
               >
-                <div className="accordion-body bg-dark text-light">
-                  <div className="mb-3">simplygaming@gmail.com</div>
-                  <div className="mb-3">simplygaming.in</div>
-                  <div className="mb-3">simplygaming@facebook</div>
-                  <div className="mb-3">+91 99877 94974</div>
+                <div className="accordion-body ms-3 col list-group bg-dark text-light">
+                  <Link to={`mailto:${emailAddress}`} className="mb-3 text-decoration-none text-white">simplygaming@gmail.com</Link>
+                  <Link to="" className="mb-3 text-decoration-none text-white">simplygaming.in</Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">simplygaming@facebook</Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">+91 99877 94974</Link>
                 </div>
               </div>
             </div>
