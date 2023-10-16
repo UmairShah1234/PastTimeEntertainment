@@ -82,7 +82,7 @@ const  products = [
     },{
       id: 12,
       img: "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      title: "Gaming PC Setups",
+      title: "Gaming PC",
       path: "Gamingpc",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditatenihil illo incidunt officiis iusto! Excepturi vero nisi molestiae doloribus illum repudiandae, dolorem omnis, numquam reprehenderiteaque sed commodi voluptatem sit!",
   

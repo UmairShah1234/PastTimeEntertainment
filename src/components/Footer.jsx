@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const emailAddress = "devlanzzer@gmail.com"
+  const emailAddress = "devlanzzer@gmail.com";
   const isNonMobile = useMediaQuery("(min-width: 1200px)");
   return (
     <>
@@ -18,30 +18,78 @@ const Footer = () => {
               <div className="col-3">
                 <h2 className="">Explore</h2>
                 <div className="col list-group ">
-                <Link to="/"  className="mb-3 text-decoration-none text-white ">Home</Link>
-                  <Link to="/explore" className="mb-3 text-decoration-none text-white ">Products</Link>
-                  <Link to="/events" className="mb-3 text-decoration-none text-white ">Events</Link>
-                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white ">Training</Link>
+                  <Link
+                    to="/"
+                    className="mb-3 text-decoration-none text-white "
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/explore"
+                    className="mb-3 text-decoration-none text-white "
+                  >
+                    Products
+                  </Link>
+                  <Link
+                    to="/events"
+                    className="mb-3 text-decoration-none text-white "
+                  >
+                    Events
+                  </Link>
+                  <Link
+                    to="/conflict-management"
+                    className="mb-3 text-decoration-none text-white "
+                  >
+                    Training
+                  </Link>
                 </div>
               </div>
 
               <div className="col-3  ">
                 <h2 className="">Support</h2>
                 <div className="col list-group">
-                  <Link to="/" className="mb-3 text-decoration-none text-white">FAQs</Link>
-                  <Link to="/events" className="mb-3 text-decoration-none text-white">Review</Link>
-                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white">Training</Link>
-                  <Link to="/what-we-do" className="mb-3 text-decoration-none text-white">About</Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    FAQs
+                  </Link>
+                  <Link
+                    to="/events"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Review
+                  </Link>
+                  <Link
+                    to="/conflict-management"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Training
+                  </Link>
+                  <Link
+                    to="/what-we-do"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    About
+                  </Link>
                 </div>
               </div>
 
               <div className="col-3">
                 <h2 className="">Contacts</h2>
                 <div className="col list-group">
-                  <Link to={`mailto:${emailAddress}`} className="mb-3 text-decoration-none text-white">simplygaming@gmail.com</Link>
-                  <Link to="/" className="mb-3">simplygaming.in</Link>
-                  <Link to="/" className="mb-3">simplygaming@facebook</Link>
-                  <Link to="/" className="mb-3">+91 99877 94974</Link>
+                  <Link
+                    to={`mailto:${emailAddress}`}
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    simplygaming@gmail.com
+                  </Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    simplygaming.in
+                  </Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    simplygaming@facebook
+                  </Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    +91 99877 94974
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,10 +117,30 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body ms-3 text-light col list-group">
-                  <Link to="/"  className="mb-3 text-decoration-none text-white ">Home</Link>
-                  <Link to="/explore" className="mb-3 text-decoration-none text-white">Products</Link>
-                  <Link to="/events" className="mb-3 text-decoration-none text-white">Events</Link>
-                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white">Training</Link>
+                  <Link
+                    to="/"
+                    className="mb-3 text-decoration-none text-white "
+                  >
+                    Home
+                  </Link>
+                  <Link
+                    to="/explore"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Products
+                  </Link>
+                  <Link
+                    to="/events"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Events
+                  </Link>
+                  <Link
+                    to="/conflict-management"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Training
+                  </Link>
                 </div>
               </div>
             </div>
@@ -95,10 +163,27 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body ms-3 col list-group bg-dark text-light">
-                  <Link to="/" className="mb-3 text-decoration-none text-white">FAQs</Link>
-                  <Link to="events" className="mb-3 text-decoration-none text-white">Review</Link>
-                  <Link to="/conflict-management" className="mb-3 text-decoration-none text-white">Training</Link>
-                  <Link to="/what-we-do" className="mb-3 text-decoration-none text-white">About</Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    FAQs
+                  </Link>
+                  <Link
+                    to="events"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Review
+                  </Link>
+                  <Link
+                    to="/conflict-management"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    Training
+                  </Link>
+                  <Link
+                    to="/what-we-do"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    About
+                  </Link>
                 </div>
               </div>
             </div>
@@ -121,10 +206,21 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body ms-3 col list-group bg-dark text-light">
-                  <Link to={`mailto:${emailAddress}`} className="mb-3 text-decoration-none text-white">simplygaming@gmail.com</Link>
-                  <Link to="" className="mb-3 text-decoration-none text-white">simplygaming.in</Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">simplygaming@facebook</Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">+91 99877 94974</Link>
+                  <Link
+                    to={`mailto:${emailAddress}`}
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    simplygaming@gmail.com
+                  </Link>
+                  <Link to="" className="mb-3 text-decoration-none text-white">
+                    simplygaming.in
+                  </Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    simplygaming@facebook
+                  </Link>
+                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                    +91 99877 94974
+                  </Link>
                 </div>
               </div>
             </div>

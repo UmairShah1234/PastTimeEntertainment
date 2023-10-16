@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   CheckCircleOutlineOutlined,
+  KeyboardArrowDown,
   Psychology,
   ShoppingCartCheckout,
   SupportAgent,
 } from "@mui/icons-material";
 
 const About = () => {
+  const divRef = useRef(null);
+
+  const handleClick = () => {
+    divRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="bg-dark text-light ">
       <div className="container">
@@ -35,8 +41,11 @@ const About = () => {
                 farming, construction, or sports. These games aim to provide a
                 realistic and often educational experience
               </p>
-              <button className="btn text-danger btn-outline-info">
-                Check More
+              <button
+                className="btn text-danger btn-outline-info"
+                onClick={handleClick}
+              >
+                Check More <KeyboardArrowDown />
               </button>
             </div>
 
@@ -74,7 +83,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="pb-3 container mt-3">
+        <div className="pb-3 container mt-3" ref={divRef}>
           <h2 className="text-danger">What We Do?</h2>
           <div>
             <p>
