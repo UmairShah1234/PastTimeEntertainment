@@ -22,6 +22,7 @@ const ProductCard = ({ title, desc, links }) => {
 
         <Link
           to={`./${links}`}
+          // to={links}
           className="btn btn-outline-danger card-text text-light rounded-0"
         >
           Explore <KeyboardArrowRight />

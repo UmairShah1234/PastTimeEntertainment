@@ -32,6 +32,24 @@
           index: true,
           element: <Home />,
         },
+        // links for products on the homepage
+        {
+          path: "/vrcricket",
+          element: <Vrcricket />,
+    },
+    {
+          path: "/arSports",
+          element: <Arsports />,
+    },
+    {
+          path: "/F1simulator",
+          element: <F1simulator />,
+    },
+    {
+      path: "/Gamingpc",
+      element: <Gamingpc />,
+},
+
         {
           path: "/contact-us",
           element: <Contact />,
@@ -39,56 +57,54 @@
         {
           path: "/explore",
           element: <Explore />,
-          children: [
-            {
-              path: "vrcricket",
+         },
+        {
+              path: "/explore/vrcricket",
               element: <Vrcricket />,
-            },
-            {
-              path: "arSports",
+        },
+        {
+              path: "/explore/arSports",
               element: <Arsports />,
-            },
-            {
-              path: "F1simulator",
+        },
+        {
+              path: "/explore/F1simulator",
               element: <F1simulator />,
-            },
-            {
-              path: "Flightsimulator",
+        },
+        {
+              path: "/explore/Flightsimulator",
               element: <Flightsimulator />,
-            },
-            {
-              path: "Vrboxing",
+        },
+        {
+              path: "/explore/Vrboxing",
               element: <Vrboxing />,
-            },
-            {
-              path: "Walktheplank",
+        },
+        {
+              path: "/explore/Walktheplank",
               element: <Walktheplank />,
-            },
-            {
-              path: "Vrrollercoaster",
+        },
+        {
+              path: "/explore/Vrrollercoaster",
               element: <Vrrollercoaster />,
-            },
-            {
-              path: "Gamingpc",
+        },
+        {
+              path: "/explore/Gamingpc",
               element: <Gamingpc />,
-            },
-            {
-              path: "Arcadegaming",
+        },
+        {
+              path: "/explore/Arcadegaming",
               element: <Arcadegaming />,
-            },
-            {
-              path: "Vrgolf",
+        },
+        {
+              path: "/explore/Vrgolf",
               element: <Vrgolf />,
-            },
-            {
-              path: "ArRacing",
+        },
+        {
+              path: "/explore/ArRacing",
               element: <Racing />,
-            },
-            {
-              path: "Retrogaming",
+        },
+        {
+              path: "/explore/Retrogaming",
               element: <Retrogaming />,
-            },
-          ],
         },
         {
           path: "/events",
