@@ -21,6 +21,7 @@
   import Vrgolf from "./pages/explore/Vrgolf";
   import Racing from "./pages/explore/Racing";
   import Retrogaming from "./pages/explore/Retrogaming";
+import Maps from "./components/Maps";
 
   const router = createBrowserRouter([
     {
@@ -118,6 +119,7 @@
           path: "/conflict-management",
           element: <Training />,
         },
+       
       ],
     },
   ]);
