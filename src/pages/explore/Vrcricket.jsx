@@ -1,5 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/VR Cricket.png'
 
 const Vrcricket = () => {
   const keypoints = [
@@ -67,6 +68,7 @@ const Vrcricket = () => {
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   );

@@ -1,71 +1,73 @@
 import React from 'react'
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/Retro Gaming.png';
 
 const Retrogaming = () => {
     const keypoints = [
-        "Immersive Experience: VR cricket offers players a highly immersive experience by using VR headsets and controllers. This allows them to feel like they are actually on the cricket field, facing bowlers, and batting or bowling in a virtual world.",
-        "Gameplay Simulation: VR cricket games are designed to simulate the actual rules and mechanics of cricket. Players can bat, bowl, and field as they would in a real cricket match. The gameplay aims to replicate the nuances of the sport.",
-        "Training Tool: VR cricket can also be used as a training tool for cricketers to improve their skills. It provides a controlled environment where players can practice their batting and bowling techniques without the need for a physical cricket pitch.",
-        "Entertainment: Besides training, VR cricket is also used for entertainment purposes. It allows cricket fans to experience the excitement of the sport from the comfort of their homes. There are various VR cricket games and experiences available for gaming enthusiasts.",
-        "Technology Requirements: To play VR cricket, you'll need a VR headset (such as Oculus Rift, HTC Vive, or PlayStation VR) and compatible hardware. These headsets typically track the movement of your head and hands, enabling you to interact with the virtual environment.",
+        "Historical Context: Retro gaming allows players to experience video games from past decades, offering a sense of nostalgia and a chance to explore the history of gaming.",
+        "Platforms: Retro gaming platforms include classic home consoles like the Atari 2600, Nintendo Entertainment System (NES), Sega Genesis, and Super Nintendo Entertainment System (SNES). Retro gamers also play on older PCs, arcade machines, and handheld consoles.",
+        "Emulation: Emulators are software programs that allow modern computers and devices to mimic the hardware and software of older consoles. Emulation is a common way to play retro games on current systems.",
+        "Retro Game Stores: Specialty retro game stores sell classic game consoles, games, and accessories, providing a physical space for collectors and players to explore.",
+        "Cross-Generational Appeal: Retro gaming appeals to players of all ages. Older gamers may reminisce about their youth, while younger players enjoy discovering the origins of popular franchises and gaming history.",
       ];
       const about =
-        "Virtual Reality (VR) cricket refers to a form of the sport of cricket that is experienced through virtual reality technology. In VR cricket, players can immerse themselves in a realistic virtual environment that simulates the cricket field and gameplay";
+        "Retro gaming refers to playing and collecting video games and game consoles from earlier eras in the history of video gaming. Typically, it involves playing games and using hardware that was popular in the 1980s and 1990s or even earlier.";
     
       const usageText =
-        "Virtual Reality (VR) cricket is a technology-driven experience that combines the immersive world of virtual reality with the sport of cricket. It offers several usage scenarios and applications:";
+        "Retro gaming serves various purposes and offers a range of uses for both gaming enthusiasts and those interested in gaming history. Here are some common uses and purposes of retro gaming:";
     
       const usage = [
-        "Entertainment and Recreation: Gaming: VR cricket games provide an immersive and interactive way for cricket enthusiasts to play their favorite sport in virtual environments. Fun and Leisure: VR cricket can be a recreational activity for friends and family, offering entertainment at home or at VR gaming centers.",
-        "Skill Development: Training: VR cricket simulations can be used for training purposes, helping players improve their batting, bowling, and fielding techniques. Strategy: Coaches and teams can use VR cricket to develop and test strategies for different game situations",
-        "Fan Engagement: Fan Zones: Sports events and stadiums often set up VR cricket zones where fans can experience the sport in an immersive way. Promotions: VR cricket experiences can be used for promotional events by sports teams, sponsors, or broadcasters to engage fans and promote their products or services.",
-        "Marketing and Branding: Product Launches: Companies in the sports and gaming industry can use VR cricket to launch new products or campaigns. Experiential Marketing: Brands can leverage VR cricket to create memorable brand experiences at trade shows and events",
-        "Events and Tournaments: Exhibitions: VR cricket can be a part of exhibitions and trade shows to attract visitors and create engagement. Tournaments: Organizing VR cricket tournaments at events can generate excitement and competition among participants.",
+        "Historical Exploration: Retro gaming allows players to explore the history of video games. It provides a chance to experience the games and hardware that laid the foundation for the modern gaming industry.",
+        "Collecting: Retro gaming often involves collecting vintage gaming consoles, game cartridges, discs, and accessories. Some people collect retro games as a hobby or as an investment.",
+        "Classic Game Tournaments: Retro gaming events often host tournaments featuring classic games like 'Super Mario Bros.,' 'Street Fighter II,' or 'Pac-Man.' Gamers compete to showcase their skills in these vintage titles.",
+        "Free Play Areas: Many retro gaming events provide areas with rows of retro consoles and arcade cabinets, allowing attendees to play classic games freely and relive nostalgic moments.",
+        "Social Interaction: Retro gaming events are social gatherings where attendees can meet like-minded enthusiasts, share their passion for gaming, and make new friends.",
       ];
     
       const faqs = [
         {
           number: "One",
-          question: "What is VR cricket for events?",
+          question: "What is retro gaming?",
           answer:
-            "VR cricket for events refers to the use of virtual reality cricket simulations as entertainment or engagement activities at various gatherings, exhibitions, and functions.",
+            "Retro gaming refers to playing and collecting classic video games, consoles, and gaming culture from earlier eras in the history of video gaming, typically from the 1980s and 1990s.",
         },
         {
           number: "Two",
-          question: "What types of events can incorporate VR cricket?",
+          question: "What types of games are typically featured at retro gaming events?",
           answer:
-            "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+            "Retro gaming events feature a wide range of classic games, including arcade games, console games (e.g., NES, Sega Genesis), and computer games from earlier generations.",
         },
         {
           number: "Three",
           question:
-            "Do event attendees need prior experience with VR to play VR cricket?",
+            "Do retro gaming events have competitive elements?",
           answer:
-            "No, VR cricket experiences can be designed to cater to both experienced VR users and beginners. Many VR cricket setups include tutorials for newcomers.",
+            "Yes, many retro gaming events host tournaments and competitive play in classic games, offering prizes or recognition to top performers.",
         },
         {
           number: "Four",
-          question: "Is VR cricket suitable for all age groups?",
+          question: "Are retro games still fun to play today?",
           answer:
-            "VR cricket can be integrated into a wide range of events, including corporate meetings, trade shows, sports fan zones, product launches, team-building exercises, and entertainment events.",
+            "Retro games can be highly enjoyable, offering unique gameplay experiences that continue to captivate players with their simplicity, challenge, and nostalgia.",
         },
         {
           number: "Five",
           question:
-            "How many people can play VR cricket simultaneously at an event?",
+            "Why do people enjoy retro gaming?",
           answer:
-            "The number of participants depends on the setup and available equipment. Events can have multiple VR stations to accommodate several players simultaneously.",
+            "People enjoy retro gaming for various reasons, including nostalgia, the opportunity to experience gaming history, and the charm of classic games with simpler gameplay and graphics.",
         },
       ];
   return (
     <div>
         <ProductPage
-        title={"VR Cricket"}
+        title={"Retro Gaming"}
         keypoints={keypoints}
         about={about}
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   )

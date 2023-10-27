@@ -1,5 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/AR Sports.png'
 
 const Arsports = () => {
   const keypoints = [
@@ -65,6 +66,7 @@ const Arsports = () => {
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   );

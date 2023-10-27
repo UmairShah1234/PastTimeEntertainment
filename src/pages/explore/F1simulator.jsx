@@ -1,5 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/F1 Simulator.png'
 
 const F1simulator = () => {
   const keypoints = [
@@ -66,6 +67,7 @@ const F1simulator = () => {
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   );

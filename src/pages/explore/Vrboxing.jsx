@@ -1,5 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/VR Boxing 1V1.png'
 
 const Vrboxing = () => {
   const keypoints = [
@@ -64,6 +65,7 @@ const Vrboxing = () => {
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   );

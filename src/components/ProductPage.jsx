@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Avatar from "@mui/material/Avatar";
 import axios from "axios";
 
-const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
+const ProductPage = ({ title, keypoints, about, usageText, usage, faqs , img }) => {
   const [showSuccessAlert, setShowSuccessAlert] = useState(false);
   const [showErrorAlert, setShowErrorAlert] = useState(false);
   const [formData, setFormData] = useState({
@@ -45,8 +45,9 @@ const ProductPage = ({ title, keypoints, about, usageText, usage, faqs }) => {
           {/* header div */}
           <div className="d-flex">
             <Avatar
-              src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              // src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
               sx={{ height: 150, width: 150 }}
+              src={img}
             />
             <div>
               <h3 className="p-3 mx-3">

@@ -1,5 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
+import img from '../../assets/VR Plank.png'
 
 const Walktheplank = () => {
   const keypoints = [
@@ -66,6 +67,7 @@ const Walktheplank = () => {
         usageText={usageText}
         usage={usage}
         faqs={faqs}
+        img={img}
       />
     </div>
   );
