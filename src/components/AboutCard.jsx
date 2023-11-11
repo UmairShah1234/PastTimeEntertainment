@@ -5,7 +5,7 @@ const AboutCard = () => {
   return (
     <div className="card shadow-lg bg-dark text-light">
       <div className="card-body">
-        <h2 className="card-title my-3 text-danger">
+        <h2 className="card-title my-3 text-light">
           About <br />
           <span className=" border-bottom border-light border-2 text-light">
             Past Time Entertainment

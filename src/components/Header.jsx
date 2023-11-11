@@ -1,12 +1,13 @@
-import { Badge } from "@mui/material";
+import { Avatar, Badge } from "@mui/material";
 import { Link } from "react-router-dom";
+import img from "../assets/BrandPic1.jpeg";
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg ">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          PastTimeEntertainment
+          <Avatar src={img} sx={{ width: 50, height: 50 }} />
         </Link>
         <button
           className="navbar-toggler"
@@ -48,7 +49,9 @@ const Header = () => {
             </li>
             <li className="nav-item mx-3">
               <Link className="nav-link" to="conflict-management">
-                <Badge color="success" badgeContent={"new"}>Training</Badge>
+                <Badge color="success" badgeContent={"new"}>
+                  Training
+                </Badge>
               </Link>
             </li>
           </ul>

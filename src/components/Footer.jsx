@@ -1,6 +1,7 @@
-import { useMediaQuery } from "@mui/material";
+import { Avatar, useMediaQuery } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../assets/BrandPic.jpeg";
 
 const Footer = () => {
   const emailAddress = "devlanzzer@gmail.com";
@@ -12,7 +13,10 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-3 d-flex justify-content-center align-items-center">
-                <h2 className="">Past Time Entertainment</h2>
+                <div className="">
+                  <Avatar src={img} alt="" sx={{ width: 200, height: 200 }} />
+                </div>
+                {/* <h2 className="">Past Time Entertainment</h2> */}
               </div>
 
               <div className="col-3">
