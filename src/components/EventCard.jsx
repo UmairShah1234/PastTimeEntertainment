@@ -36,7 +36,7 @@ const EventCard = () => {
         </select>
       </div>
       <Box className="d-flex flex-column row px-5" sx={{ width: "100vw" }}>
-          <h3 className="text-light">
+          <h3 className="text-light text-center">
             <span className="border-bottom">Read About Events</span>
           </h3>
         <Box className="col text-center text-white">

@@ -8,7 +8,7 @@ const Explore = () => {
       <div className="container">
         <h3 className="py-3">Check Out All Our Products</h3>
         <hr />
-        <div className="row row-cols-lg-4 row-cols-1">
+        <div className="row row-cols-lg-4 row-cols-1 d-flex justify-content-center align-items-center">
           {products.map((product) => {
             return (
               <ProductCard
