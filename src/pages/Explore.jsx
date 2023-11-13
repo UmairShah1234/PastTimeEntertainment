@@ -3,6 +3,7 @@ import ProductCard from "../components/ProductCard";
 import products from "../data/products";
 
 const Explore = () => {
+  
   return (
     <div className="bg-dark text-light p-3">
       <div className="container">
