@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProductCard = ({ title, desc, links, img }) => {
-  console.log(img);
+  
   return (
     <div
       className="card bg-dark shadow-lg p-1 mx-1 my-1"

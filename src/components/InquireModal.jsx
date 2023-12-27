@@ -21,7 +21,7 @@ const InquireModal = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("formSubmit called");
+
     try {
       await axios.post("http://localhost:5000/api/send-inquiry", formData);
       setShowSuccessAlert(true);
@@ -33,7 +33,6 @@ const InquireModal = () => {
         message: "",
       });
     } catch (error) {
-      console.error("Error sending email:", error);
       setShowErrorAlert(true);
     }
   };

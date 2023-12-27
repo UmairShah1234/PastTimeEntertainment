@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import img from "../assets/BrandPic.jpeg";
 
 const Footer = () => {
-  const emailAddress = "devlanzzer@gmail.com";
+  const emailAddress = "pastimentmt@gmail.com";
   const isNonMobile = useMediaQuery("(min-width: 1200px)");
   return (
     <>
@@ -52,7 +52,10 @@ const Footer = () => {
               <div className="col-3  ">
                 <h2 className="">Support</h2>
                 <div className="col list-group">
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                  <Link
+                    to="/explore/vrcricket"
+                    className="mb-3 text-decoration-none text-white"
+                  >
                     FAQs
                   </Link>
                   <Link
@@ -83,16 +86,24 @@ const Footer = () => {
                     to={`mailto:${emailAddress}`}
                     className="mb-3 text-decoration-none text-white"
                   >
-                    simplygaming@gmail.com
+                    pastimentmt@gmail.com
                   </Link>
                   <Link to="/" className="mb-3 text-decoration-none text-white">
-                    simplygaming.in
+                    site.in
                   </Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
-                    simplygaming@facebook
+                  <Link
+                    to="https://instagram.com/pastime.entertaiment?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr"
+                    className="mb-3 text-decoration-none text-white"
+                    target="blank"
+                  >
+                    pastime.entertaiment
                   </Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
-                    +91 99877 94974
+                  <Link
+                    to="https://wa.me/message/M53JJO5UE33UF1"
+                    target="_blank"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    +91 9372204964
                   </Link>
                 </div>
               </div>
@@ -167,7 +178,10 @@ const Footer = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body ms-3 col list-group bg-dark text-light">
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
+                  <Link
+                    to="/explore/vrcricket"
+                    className="mb-3 text-decoration-none text-white"
+                  >
                     FAQs
                   </Link>
                   <Link
@@ -214,16 +228,24 @@ const Footer = () => {
                     to={`mailto:${emailAddress}`}
                     className="mb-3 text-decoration-none text-white"
                   >
-                    simplygaming@gmail.com
+                    pastimentmt@gmail.com
                   </Link>
                   <Link to="" className="mb-3 text-decoration-none text-white">
                     simplygaming.in
                   </Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
-                    simplygaming@facebook
+                  <Link
+                    to="https://instagram.com/pastime.entertaiment?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr"
+                    className="mb-3 text-decoration-none text-white"
+                    target="blank"
+                  >
+                    pastime.entertaiment
                   </Link>
-                  <Link to="/" className="mb-3 text-decoration-none text-white">
-                    +91 99877 94974
+                  <Link
+                    to="https://wa.me/message/M53JJO5UE33UF1"
+                    target="_blank"
+                    className="mb-3 text-decoration-none text-white"
+                  >
+                    +91 9372204964
                   </Link>
                 </div>
               </div>

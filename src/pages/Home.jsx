@@ -21,163 +21,111 @@ const Home = () => {
         <CarouselComp />
       </div>
       {/* Products */}
-      {isNonMobile ? 
-    (<>
-    <Title title={"Check Out Our Featured Products"} />
-    <div className="">
-      <div className="d-flex justify-content-center align-items-center ">
-        <div className="row p-3">
-          <div className="col">
-            <ProductCard
-              title={"VR"}
-              desc={
-                "VR gaming offers a unique and immersive way to experience video games by allowing players to step into virtual worlds and interact with them in ways that were previously impossible with traditional gaming setups"
-              }
-              links={"vrcricket"}
-              img={cricket}
-            />
-          </div>
-          <div className="col">
-            <ProductCard
-              title={"Simulator"}
-              desc={
-                "Racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators."
-              }
-              links={"F1simulator"}
-              img={sim}
-            />
-          </div>
-          <div className="col">
-            {" "}
-            <ProductCard
-              title={"AR"}
-              desc={
-                "An AR (Augmented Reality) event experience is an immersive and interactive encounter that combines the physical world with digital elements to provide attendees with a unique and engaging event."
-              }
-              links={"arSports"}
-              img={sport}
-            />
-          </div>
-          <div className="col">
-            {" "}
-            <ProductCard
-              title={"Console"}
-              desc={
-                "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
-              }
-              links={"Gamingpc"}
-              img={ocl}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    </>) 
-    :
-    (
-      <>
-      <Title title={"Check Out Our Featured Products"} />
-    {/* <div className=""> */}
-      <div className= "">
-        <div className="row p-3 ">
-          <div className="col d-flex justify-content-center align-items-center">
-            <ProductCard
-              title={"VR"}
-              desc={
-                "VR gaming offers a unique and immersive way to experience video games by allowing players to step into virtual worlds and interact with them in ways that were previously impossible with traditional gaming setups"
-              }
-              links={"vrcricket"}
-              img={cricket}
-            />
-          </div>
-          <div className="col d-flex justify-content-center align-items-center">
-            <ProductCard
-              title={"Simulator"}
-              desc={
-                "Racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators."
-              }
-              links={"F1simulator"}
-              img={sim}
-            />
-          </div>
-          <div className="col d-flex justify-content-center align-items-center">
-            {" "}
-            <ProductCard
-              title={"AR"}
-              desc={
-                "An AR (Augmented Reality) event experience is an immersive and interactive encounter that combines the physical world with digital elements to provide attendees with a unique and engaging event."
-              }
-              links={"arSports"}
-              img={sport}
-            />
-          </div>
-          <div className="col d-flex justify-content-center align-items-center">
-            {" "}
-            <ProductCard
-              title={"Console"}
-              desc={
-                "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
-              }
-              links={"Gamingpc"}
-              img={ocl}
-            />
-          </div>
-        </div>
-      </div>
-    {/* </div> */}
-      </>
-    )  
-    
-    }
-      {/* <Title title={"Check Out Our Featured Products"} />
-      <div className="">
-        <div className="d-flex justify-content-center align-items-center ">
-          <div className="row p-3">
-            <div className="col">
-              <ProductCard
-                title={"VR"}
-                desc={
-                  "VR gaming offers a unique and immersive way to experience video games by allowing players to step into virtual worlds and interact with them in ways that were previously impossible with traditional gaming setups"
-                }
-                links={"vrcricket"}
-                img={cricket}
-              />
-            </div>
-            <div className="col">
-              <ProductCard
-                title={"Simulator"}
-                desc={
-                  "Racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators."
-                }
-                links={"F1simulator"}
-                img={sim}
-              />
-            </div>
-            <div className="col">
-              {" "}
-              <ProductCard
-                title={"AR"}
-                desc={
-                  "An AR (Augmented Reality) event experience is an immersive and interactive encounter that combines the physical world with digital elements to provide attendees with a unique and engaging event."
-                }
-                links={"arSports"}
-                img={sport}
-              />
-            </div>
-            <div className="col">
-              {" "}
-              <ProductCard
-                title={"Console"}
-                desc={
-                  "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
-                }
-                links={"Gamingpc"}
-                img={ocl}
-              />
+      {isNonMobile ? (
+        <>
+          <Title title={"Check Out Our Featured Products"} />
+          <div className="">
+            <div className="d-flex justify-content-center align-items-center ">
+              <div className="row p-3">
+                <div className="col">
+                  <ProductCard
+                    title={"VR"}
+                    desc={
+                      "VR gaming offers a unique and immersive way to experience video games by allowing players to step into virtual worlds and interact with them in ways that were previously impossible with traditional gaming setups"
+                    }
+                    links={"vrcricket"}
+                    img={cricket}
+                  />
+                </div>
+                <div className="col">
+                  <ProductCard
+                    title={"Simulator"}
+                    desc={
+                      "Racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators."
+                    }
+                    links={"F1simulator"}
+                    img={sim}
+                  />
+                </div>
+                <div className="col">
+                  {" "}
+                  <ProductCard
+                    title={"AR"}
+                    desc={
+                      "An AR (Augmented Reality) event experience is an immersive and interactive encounter that combines the physical world with digital elements to provide attendees with a unique and engaging event."
+                    }
+                    links={"arSports"}
+                    img={sport}
+                  />
+                </div>
+                <div className="col">
+                  {" "}
+                  <ProductCard
+                    title={"Console"}
+                    desc={
+                      "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
+                    }
+                    links={"Gamingpc"}
+                    img={ocl}
+                  />
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div> */}
+        </>
+      ) : (
+        <>
+          <Title title={"Check Out Our Featured Products"} isPresent={1}/>
+          {/* <div className=""> */}
+          <div className="">
+            <div className="row p-3 ">
+              <div className="col d-flex justify-content-center align-items-center">
+                <ProductCard
+                  title={"VR"}
+                  desc={
+                    "VR gaming offers a unique and immersive way to experience video games by allowing players to step into virtual worlds and interact with them in ways that were previously impossible with traditional gaming setups"
+                  }
+                  links={"vrcricket"}
+                  img={cricket}
+                />
+              </div>
+              <div className="col d-flex justify-content-center align-items-center">
+                <ProductCard
+                  title={"Simulator"}
+                  desc={
+                    "Racing simulator event experience is a gathering or exhibition that provides participants with an opportunity to immerse themselves in the world of motorsports and experience the thrill of racing through the use of high-quality racing simulators."
+                  }
+                  links={"F1simulator"}
+                  img={sim}
+                />
+              </div>
+              <div className="col d-flex justify-content-center align-items-center">
+                {" "}
+                <ProductCard
+                  title={"AR"}
+                  desc={
+                    "An AR (Augmented Reality) event experience is an immersive and interactive encounter that combines the physical world with digital elements to provide attendees with a unique and engaging event."
+                  }
+                  links={"arSports"}
+                  img={sport}
+                />
+              </div>
+              <div className="col d-flex justify-content-center align-items-center">
+                {" "}
+                <ProductCard
+                  title={"Console"}
+                  desc={
+                    "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
+                  }
+                  links={"Gamingpc"}
+                  img={ocl}
+                />
+              </div>
+            </div>
+          </div>
+          {/* </div> */}
+        </>
+      )}
 
       {/* about card */}
       <div className="container mb-5">
@@ -186,7 +134,7 @@ const Home = () => {
 
       {/* client marquee section */}
       <div>
-        <marquee >
+        <marquee>
           <img
             src="https://www.investopedia.com/thmb/yWopXC98WleAk2BKf0jgqcDUM2E=/fit-in/1500x1000/filters:format(png):fill(white):max_bytes(150000):strip_icc()/bofa_lo2_rgb_Digital-20d4dc2ee16d4412a0722dd5923c13e7.jpg"
             alt=""
@@ -208,13 +156,13 @@ const Home = () => {
             width={200}
             className="mx-1"
           />
-          <img
+          {/* <img
             src="https://upload.wikimedia.org/wikipedia/en/2/21/Red_Chillies_Entertainment_logo.png"
             alt=""
             height={150}
             width={200}
             className="mx-1"
-          />
+          /> */}
           <img
             src="https://getvectorlogo.com/wp-content/uploads/2018/12/icici-bank-vector-logo.png"
             alt=""

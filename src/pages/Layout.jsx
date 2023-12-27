@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Footer from "../components/Footer";
 import WhatsApp from "../components/WhatsApp";
 
@@ -10,7 +10,9 @@ const Layout = () => {
       <Header />
       <Outlet />
       <Footer />
+      <Link to={'https://wa.me/message/M53JJO5UE33UF1'} target="_blank">
       <WhatsApp />
+      </Link>
     </div>
   );
 };

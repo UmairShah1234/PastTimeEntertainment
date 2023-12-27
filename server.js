@@ -22,24 +22,22 @@ app.post('/api/send-email', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'devlanzzer@gmail.com',
-      pass: 'igfg fnoh xkan jmno',
+      user: 'pastimentmt@gmail.com',
+      pass: 'vmwd qtwb wyfp mzkw',
     },
   });
 
   const mailOptions = {
-    from: "devlanzzer@gmail.com",
-    to: 'devlanzzer@gmail.com',
+    from: "pastimentmt@gmail.com",
+    to: 'pastimentmt@gmail.com',
     subject: 'New Contact Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error('Error sending email:', error);
       res.status(500).send('Error sending email');
     } else {
-      console.log('Email sent:', info.response);
       res.status(200).send('Email sent successfully');
     }
   });
@@ -53,24 +51,22 @@ app.post('/api/send-inquiry', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'devlanzzer@gmail.com',
-      pass: 'igfg fnoh xkan jmno',
+      user: 'pastimentmt@gmail.com',
+      pass: 'vmwd qtwb wyfp mzkw',
     },
   });
 
   const mailOptions = {
     from: "devlanzzer@gmail.com",
-    to: 'devlanzzer@gmail.com',
+    to: 'pastimentmt@gmail.com',
     subject: 'New Contact Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.error('Error sending email:', error);
       res.status(500).send('Error sending email');
     } else {
-      console.log('Email sent:', info.response);
       res.status(200).send('Email sent successfully');
     }
   });

@@ -23,7 +23,7 @@ const EventCard = () => {
       <h2 className="py-3 text-white text-center">Check Out Our Grand Events</h2>
       <div className="d-flex justify-content-around ">
         <select
-          className="bg-dark btn btn-outline-danger  text-white"
+          className="bg-dark btn btn-outline-danger mb-3  text-white"
           value={selectedEvent}
           onChange={handleEventChange}
         >

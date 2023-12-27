@@ -34,19 +34,19 @@ const events = {
   //   title: "Gaming PC Setup",
   //   desc: "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers",
   // },
-  Mario_Kart: {
-    img: [
-      "/assets/Simply Gaming Event Galleria/PlayStation 4-5/IMG-20220407-WA0001.jpg",
-      "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20230901-WA0013.jpg",
-      "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20230901-WA0007.jpg",
-      "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20220731-WA0005.jpg",
-    ],
-    center:{ lat:12.9716448, //bangalorr
-      long:77.594554
-     },
-    title: "Mario Kart Racing",
-    desc: "A Mario Kart racing experience is an exciting and immersive event or attraction inspired by the popular Mario Kart video game series developed by Nintendo.",
-  },
+  // Mario_Kart: {
+  //   img: [
+  //     "/assets/Simply Gaming Event Galleria/PlayStation 4-5/IMG-20220407-WA0001.jpg",
+  //     "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20230901-WA0013.jpg",
+  //     "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20230901-WA0007.jpg",
+  //     "/assets/Simply Gaming Event Galleria/Gaming PC Setup/IMG-20220731-WA0005.jpg",
+  //   ],
+  //   center:{ lat:12.9716448, //bangalorr
+  //     long:77.594554
+  //    },
+  //   title: "Mario Kart Racing",
+  //   desc: "A Mario Kart racing experience is an exciting and immersive event or attraction inspired by the popular Mario Kart video game series developed by Nintendo.",
+  // },
   PlayStation: {
     img: [
       "/assets/Simply Gaming Event Galleria/PlayStation 4-5/IMG-20220303-WA0024.jpg",
