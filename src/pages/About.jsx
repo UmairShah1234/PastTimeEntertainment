@@ -136,7 +136,7 @@ const About = () => {
                   <div>
                     <p>
                       We offer unparalleled technical expertise. From setup to
-                      troubleshooting, our team ensures a flawless VR
+                      troubleshooting, our team ensures a flawless 
                       experience.
                     </p>
                   </div>
@@ -152,7 +152,7 @@ const About = () => {
                   <div>
                     <p>
                       We're all about being customer-centric. Your satisfaction
-                      is our top priority, and we tailor every VR experience to
+                      is our top priority, and we tailor every gaming experience to
                       meet your unique needs and preferences.
                     </p>
                   </div>
@@ -188,7 +188,7 @@ const About = () => {
                   <div>
                     <p>
                       our vast catalog ensures there's something for everyone.
-                      We offer an extensive range of VR adventures to suit all
+                      We offer an extensive range of gaming adventures to suit all
                       tastes and preferences.
                     </p>
                   </div>

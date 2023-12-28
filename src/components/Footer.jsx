@@ -2,6 +2,7 @@ import { Avatar, useMediaQuery } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "../assets/BrandPic.jpeg";
+import { Email, Instagram, Language, Phone } from "@mui/icons-material";
 
 const Footer = () => {
   const emailAddress = "pastimentmt@gmail.com";
@@ -94,24 +95,24 @@ const Footer = () => {
                     to={`mailto:${emailAddress}`}
                     className="mb-3 text-decoration-none text-white"
                   >
-                    pastimentmt@gmail.com
+                    <Email /> pastimentmt@gmail.com
                   </Link>
                   <Link to="/" className="mb-3 text-decoration-none text-white">
-                    site.in
+                    <Language /> PastimeEntertainment.in
                   </Link>
                   <Link
                     to="https://instagram.com/pastime.entertaiment?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr"
                     className="mb-3 text-decoration-none text-white"
                     target="blank"
                   >
-                    pastime.entertaiment
+                    <Instagram /> pastime.entertaiment
                   </Link>
                   <Link
                     to="https://wa.me/message/M53JJO5UE33UF1"
                     target="_blank"
                     className="mb-3 text-decoration-none text-white"
                   >
-                    +91 9372204964
+                    <Phone /> +91 9372204964
                   </Link>
                 </div>
               </div>
@@ -244,24 +245,24 @@ const Footer = () => {
                     to={`mailto:${emailAddress}`}
                     className="mb-3 text-decoration-none text-white"
                   >
-                    pastimentmt@gmail.com
+                    <Email /> pastimentmt@gmail.com
                   </Link>
                   <Link to="" className="mb-3 text-decoration-none text-white">
-                    simplygaming.in
+                    <Language /> simplygaming.in
                   </Link>
                   <Link
                     to="https://instagram.com/pastime.entertaiment?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr"
                     className="mb-3 text-decoration-none text-white"
                     target="blank"
                   >
-                    pastime.entertaiment
+                    <Instagram /> pastime.entertaiment
                   </Link>
                   <Link
                     to="https://wa.me/message/M53JJO5UE33UF1"
                     target="_blank"
                     className="mb-3 text-decoration-none text-white"
                   >
-                    +91 9372204964
+                    <Phone /> +91 9372204964
                   </Link>
                 </div>
               </div>
