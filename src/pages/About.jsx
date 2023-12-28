@@ -21,47 +21,7 @@ const About = () => {
         </div>
 
         <hr />
-        <div>
-          <div className="row">
-            <div className="col-md-8 p-3">
-              <h2 className="text-danger">Latest And Finest Technologies</h2>
-              <p>
-                VR (Virtual Reality) gaming and simulator gaming are two
-                distinct but related experiences in the world of video gaming.
-                They both offer immersive and interactive gameplay, but they
-                differ in terms of technology, hardware, and the type of
-                experiences they provide. <br />
-                VR gaming is a type of gaming that immerses players in a
-                computer-generated virtual environment using a VR headset and
-                motion-tracking controllers. It aims to provide a sense of
-                presence, allowing players to feel as though they are physically
-                present in the virtual world. <br />
-                Simulator gaming involves playing video games that simulate
-                real-world activities or experiences, such as driving, flying,
-                farming, construction, or sports. These games aim to provide a
-                realistic and often educational experience
-              </p>
-              <button
-                className="btn text-danger btn-outline-info"
-                onClick={handleClick}
-              >
-                Check More <KeyboardArrowDown />
-              </button>
-            </div>
-
-            <div className="col-md-4">
-              <div className="card shadow-lg p-1 bg-dark">
-                <div className="card-body">
-                  <img
-                    src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                    alt=""
-                    height={"200px"}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
 
         <div className="pb-3 container mt-3">
           <h2 className="text-danger">Who Are We?</h2>
@@ -103,6 +63,47 @@ const About = () => {
           </div>
         </div>
 
+        <div>
+          <div className="row">
+            <div className="col-md-8 p-3">
+              <h2 className="text-danger">Latest And Finest Technologies</h2>
+              <p>
+                VR (Virtual Reality) gaming and simulator gaming are two
+                distinct but related experiences in the world of video gaming.
+                They both offer immersive and interactive gameplay, but they
+                differ in terms of technology, hardware, and the type of
+                experiences they provide. <br />
+                VR gaming is a type of gaming that immerses players in a
+                computer-generated virtual environment using a VR headset and
+                motion-tracking controllers. It aims to provide a sense of
+                presence, allowing players to feel as though they are physically
+                present in the virtual world. <br />
+                Simulator gaming involves playing video games that simulate
+                real-world activities or experiences, such as driving, flying,
+                farming, construction, or sports. These games aim to provide a
+                realistic and often educational experience
+              </p>
+              {/* <button
+                className="btn text-danger btn-outline-info"
+                onClick={handleClick}
+              >
+                Check More <KeyboardArrowDown />
+              </button> */}
+            </div>
+
+            <div className="col-md-4">
+              <div className="card shadow-lg p-1 bg-dark">
+                <div className="card-body">
+                  <img
+                    src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                    alt=""
+                    height={"200px"}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="p-3 ">
           <h2 className="text-danger  text-center border-bottom p-3">
             All About Our Services
@@ -115,7 +116,7 @@ const About = () => {
                   <div className="text-center">
                     <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>100% Satisfaction Guarantee</h3>
+                  <h3>100% SATISFACTION GUARANTEE</h3>
                   <div>
                     <p>
                       We strive to establish a good relationship with consumers
@@ -131,7 +132,7 @@ const About = () => {
                   <div className="text-center">
                     <Psychology sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>Technical expertise</h3>
+                  <h3>TECHNICAL EXPERTISE</h3>
                   <div>
                     <p>
                       We offer unparalleled technical expertise. From setup to
@@ -147,7 +148,7 @@ const About = () => {
                   <div className="text-center">
                     <SupportAgent sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>Customer Centric</h3>
+                  <h3>CUSTOMER CENTRIC</h3>
                   <div>
                     <p>
                       We're all about being customer-centric. Your satisfaction
@@ -167,7 +168,7 @@ const About = () => {
                   <div className="text-center">
                     <ShoppingCartCheckout sx={{ fontSize: 80 }} />
                   </div>
-                  <h3>One Stop Shop</h3>
+                  <h3>ONE STOP SHOP</h3>
                   <div>
                     <p>
                       At Pastime Entertainment, we're your one-stop VR solution.
@@ -183,7 +184,7 @@ const About = () => {
                   <div className="text-center">
                     <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>Infinite Experiences</h3>
+                  <h3>INFINITE EXPERIENCES</h3>
                   <div>
                     <p>
                       our vast catalog ensures there's something for everyone.
@@ -199,7 +200,7 @@ const About = () => {
                   <div className="text-center">
                     <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>Unforgettable experience</h3>
+                  <h3>UNFORGETTABLE EXPERIENCE</h3>
                   <div>
                     <p>
                       At Pastime Entertainment, we deliver an experience like no

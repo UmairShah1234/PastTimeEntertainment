@@ -34,13 +34,13 @@ const CarouselComp = () => {
         <div className="carousel-item active">
           {isNonMobile ? (
             <img
-              src={img}
+              src={img2}
               className="d-block w-100"
               alt="..."
               style={{ height: "90vh" }}
             />
           ) : (
-            <img src={img} className="d-block w-100" alt="..." />
+            <img src={img2} className="d-block w-100" alt="..." />
           )}
           <div className="carousel-caption d-none d-md-block">
             <h5>Get The Best Gaming Experience with</h5>
@@ -66,13 +66,13 @@ const CarouselComp = () => {
         <div className="carousel-item">
           {isNonMobile ? (
             <img
-              src={img2}
+              src={img}
               className="d-block w-100"
               alt="..."
               style={{ height: "90vh" }}
             />
           ) : (
-            <img src={img2} className="d-block w-100" alt="..." />
+            <img src={img} className="d-block w-100" alt="..." />
           )}
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Third slide label</h5>

@@ -35,6 +35,7 @@ app.post('/api/send-email', (req, res) => {
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
+    // console.log(error)
     if (error) {
       res.status(500).send('Error sending email');
     } else {
@@ -57,13 +58,14 @@ app.post('/api/send-inquiry', (req, res) => {
   });
 
   const mailOptions = {
-    from: "devlanzzer@gmail.com",
+    from: "pastimentmt@gmail.com",
     to: 'pastimentmt@gmail.com',
     subject: 'New Contact Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
+    // console.log(error)
     if (error) {
       res.status(500).send('Error sending email');
     } else {

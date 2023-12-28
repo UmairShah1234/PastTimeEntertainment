@@ -32,7 +32,7 @@ const HoverEvents = ({ place, side }) => {
                   component="div"
                 >
                   {/* {events[eventKey].desc} */}
-                  <Maps center={center} width="210px" height="350px"/>
+                  <Maps center={center} width="250px" height="350px"/>
                 </Typography> 
                 <CardMedia
                   component={"img"}

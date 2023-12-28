@@ -24,24 +24,28 @@ const Footer = () => {
                 <div className="col list-group ">
                   <Link
                     to="/"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white "
                   >
                     Home
                   </Link>
                   <Link
                     to="/explore"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white "
                   >
                     Products
                   </Link>
                   <Link
                     to="/events"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white "
                   >
                     Events
                   </Link>
                   <Link
                     to="/conflict-management"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white "
                   >
                     Training
@@ -54,24 +58,28 @@ const Footer = () => {
                 <div className="col list-group">
                   <Link
                     to="/explore/vrcricket"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     FAQs
                   </Link>
                   <Link
                     to="/events"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Review
                   </Link>
                   <Link
                     to="/conflict-management"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Training
                   </Link>
                   <Link
                     to="/what-we-do"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     About
@@ -134,24 +142,28 @@ const Footer = () => {
                 <div className="accordion-body ms-3 text-light col list-group">
                   <Link
                     to="/"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white "
                   >
                     Home
                   </Link>
                   <Link
                     to="/explore"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Products
                   </Link>
                   <Link
                     to="/events"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Events
                   </Link>
                   <Link
                     to="/conflict-management"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Training
@@ -180,24 +192,28 @@ const Footer = () => {
                 <div className="accordion-body ms-3 col list-group bg-dark text-light">
                   <Link
                     to="/explore/vrcricket"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     FAQs
                   </Link>
                   <Link
                     to="events"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Review
                   </Link>
                   <Link
                     to="/conflict-management"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     Training
                   </Link>
                   <Link
                     to="/what-we-do"
+                    target="_top"
                     className="mb-3 text-decoration-none text-white"
                   >
                     About

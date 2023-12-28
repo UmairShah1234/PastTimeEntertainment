@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("formSubmit called");
+    // console.log("formSubmit called");
     try {
       await axios.post("http://localhost:5000/api/send-email", formData);
       setShowSuccessAlert(true);

@@ -77,13 +77,13 @@ const events = {
   },
   Virtual_Reality: {
     img: [
+      "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Beat Saber/IMG_20230809_164434.jpg",
+      "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/Walk the Plank Experience/IMG_20230809_164407.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR + Car Driving Experience/IMG-20230709-WA0005.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Beat Saber/IMG-20230609-WA0006.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Beat Saber/IMG-20230706-WA0002.jpg",
-      "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Beat Saber/IMG_20230809_164434.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Cricket Experience/IMG_20230617_165033.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/VR Rollercoaster Experience/IMG_20230121_151214.jpg",
-      "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/Walk the Plank Experience/IMG_20230809_164407.jpg",
       "/assets/Simply Gaming Event Galleria/Virtual Reality Experience/Walk the Plank Experience/IMG_20230809_164423.jpg",
     ],
     title: "Virtual Reality Experience",
