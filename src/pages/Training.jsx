@@ -38,7 +38,7 @@ const Training = () => {
               <InquireModal />
             </div>
             <img
-              src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/src/assets/conflict.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "
@@ -49,7 +49,7 @@ const Training = () => {
         <div className="p-3 shadow-lg m-3">
           <div className="row">
             <img
-              src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/src/assets/mental.jpg"
               alt=""
               height={"200px"}
               className="col-md-3"
@@ -102,7 +102,7 @@ const Training = () => {
             </div>
 
             <img
-              src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/src/assets/hazard.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "
@@ -113,7 +113,7 @@ const Training = () => {
         <div className="p-3 shadow-lg m-3">
           <div className="row">
             <img
-              src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/src/assets/sustainaibility.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "

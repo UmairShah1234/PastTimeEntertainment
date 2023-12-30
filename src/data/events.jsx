@@ -63,11 +63,11 @@ const events = {
   },
   Racing_Simulator: {
     img: [
-      "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20230526_124125.jpg",
-      "/assets/Simply Gaming Event Galleria/Racing Simulator/20230811_131650.jpg",
-      "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230804-WA0014.jpg",
       "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230906-WA0000.jpg",
       "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20220703_191203.jpg",
+      "/assets/Simply Gaming Event Galleria/Racing Simulator/20230811_131650.jpg",
+      "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG_20230526_124125.jpg",
+      "/assets/Simply Gaming Event Galleria/Racing Simulator/IMG-20230804-WA0014.jpg",
     ],
     center:{ lat:17.3850592, //Hyderabad
       long:78.4867188
