@@ -13,7 +13,7 @@ const Events = () => {
             {/* review section */}
             <div>
               <hr />
-              <h3>Check What Our Customer Got Say About Us!!!</h3>
+              <h3>Check What Our Customer Got To Say About Us!!!</h3>
               <div className="p-3 row">
                 <div className="row">
                   <div className="col-md-4 ">

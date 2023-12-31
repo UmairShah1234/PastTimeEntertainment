@@ -1,6 +1,6 @@
 import React from "react";
 import ProductPage from "../../components/ProductPage";
-import img from '../../assets/1.png'
+import img from '../../assets/console.jpg'
 
 const Gamingpc = () => {
   const keypoints = [

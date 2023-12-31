@@ -61,7 +61,7 @@ const Home = () => {
                 <div className="col">
                   {" "}
                   <ProductCard
-                    title={"Console"}
+                    title={"Gaming PC"}
                     desc={
                       "A gaming PC event experience is an immersive gathering or exhibition centered around gaming, PC hardware, and the gaming community. These events can vary in scale from small local meetups to large conventions and provide attendees with opportunities to explore the latest gaming technologies, play video games, interact with industry professionals, and connect with fellow gamers"
                     }

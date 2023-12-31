@@ -1,18 +1,24 @@
 import React, { useRef } from "react";
 import {
+  AllInclusive,
   CheckCircleOutlineOutlined,
+  Games,
   KeyboardArrowDown,
   Psychology,
   ShoppingCartCheckout,
+  SportsEsports,
   SupportAgent,
+  ThreeDRotation,
+  VideogameAsset,
 } from "@mui/icons-material";
+import { Avatar } from "@mui/material";
 
 const About = () => {
-  const divRef = useRef(null);
+  // const divRef = useRef(null);
 
-  const handleClick = () => {
-    divRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleClick = () => {
+  //   divRef.current?.scrollIntoView({ behavior: "smooth" });
+  // };
   return (
     <div className="bg-dark text-light ">
       <div className="container">
@@ -21,7 +27,6 @@ const About = () => {
         </div>
 
         <hr />
-       
 
         <div className="pb-3 container mt-3">
           <h2 className="text-danger">Who Are We?</h2>
@@ -43,7 +48,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="pb-3 container mt-3" ref={divRef}>
+        <div className="pb-3 container mt-3">
           <h2 className="text-danger">What We Do?</h2>
           <div>
             <p>
@@ -92,13 +97,32 @@ const About = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="card shadow-lg p-1 bg-dark">
-                <div className="card-body">
-                  <img
+              <div className="card shadow-lg rounded-pill  bg-dark">
+                <div className="card-body ">
+                  {/* <img
                     src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                     alt=""
                     height={"200px"}
-                  />
+                  /> */}
+                  <div className=" d-flex  justify-content-center">
+                    <div className="border-end d-flex flex-column">
+                      <div className="p-1 pe-3 border-bottom">
+                        <SportsEsports sx={{ height: 100, width: 100 }} />
+                      </div>
+                      <div className="p-1 pe-3 border-top">
+                        <Games sx={{ height: 100, width: 100 }} />
+                      </div>
+                    </div>
+
+                    <div className="border-start">
+                      <div className="p-1 ps-3 border-bottom">
+                        <VideogameAsset sx={{ height: 100, width: 100 }} />
+                      </div>
+                      <div className="p-1 ps-3 border-top">
+                        <ThreeDRotation sx={{ height: 100, width: 100 }} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -116,7 +140,7 @@ const About = () => {
                   <div className="text-center">
                     <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>100% SATISFACTION GUARANTEE</h3>
+                  <h3>100% Satisfaction Guarantee</h3>
                   <div>
                     <p>
                       We strive to establish a good relationship with consumers
@@ -132,12 +156,11 @@ const About = () => {
                   <div className="text-center">
                     <Psychology sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>TECHNICAL EXPERTISE</h3>
+                  <h3>Technical Expertise</h3>
                   <div>
                     <p>
                       We offer unparalleled technical expertise. From setup to
-                      troubleshooting, our team ensures a flawless 
-                      experience.
+                      troubleshooting, our team ensures a flawless experience.
                     </p>
                   </div>
                 </div>
@@ -148,12 +171,12 @@ const About = () => {
                   <div className="text-center">
                     <SupportAgent sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>CUSTOMER CENTRIC</h3>
+                  <h3>Customer Centric</h3>
                   <div>
                     <p>
                       We're all about being customer-centric. Your satisfaction
-                      is our top priority, and we tailor every gaming experience to
-                      meet your unique needs and preferences.
+                      is our top priority, and we tailor every gaming experience
+                      to meet your unique needs and preferences.
                     </p>
                   </div>
                 </div>
@@ -168,7 +191,7 @@ const About = () => {
                   <div className="text-center">
                     <ShoppingCartCheckout sx={{ fontSize: 80 }} />
                   </div>
-                  <h3>ONE STOP SHOP</h3>
+                  <h3>One Stop Shop</h3>
                   <div>
                     <p>
                       At Pastime Entertainment, we're your one-stop VR solution.
@@ -182,14 +205,14 @@ const About = () => {
               <div className="col-md-4">
                 <div className="d-flex flex-column m-1 shadow-lg  p-3">
                   <div className="text-center">
-                    <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
+                    <AllInclusive sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>INFINITE EXPERIENCES</h3>
+                  <h3>Infinite Experiences</h3>
                   <div>
                     <p>
                       our vast catalog ensures there's something for everyone.
-                      We offer an extensive range of gaming adventures to suit all
-                      tastes and preferences.
+                      We offer an extensive range of gaming adventures to suit
+                      all tastes and preferences.
                     </p>
                   </div>
                 </div>
@@ -200,7 +223,7 @@ const About = () => {
                   <div className="text-center">
                     <CheckCircleOutlineOutlined sx={{ fontSize: 100 }} />
                   </div>
-                  <h3>UNFORGETTABLE EXPERIENCE</h3>
+                  <h3>Unforgettable Experience</h3>
                   <div>
                     <p>
                       At Pastime Entertainment, we deliver an experience like no

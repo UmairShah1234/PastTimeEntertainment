@@ -42,10 +42,10 @@ const CarouselComp = () => {
           ) : (
             <img src={img2} className="d-block w-100" alt="..." />
           )}
-          <div className="carousel-caption d-none d-md-block">
+          {/* <div className="carousel-caption d-none d-md-block">
             <h5>Get The Best Gaming Experience with</h5>
             <p>Pastime Entertainment</p>
-          </div>
+          </div> */}
         </div>
         <div className="carousel-item">
           {isNonMobile ? (

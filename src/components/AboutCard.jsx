@@ -8,7 +8,7 @@ const AboutCard = () => {
         <h2 className="card-title my-3 text-light">
           About <br />
           <span className=" border-bottom border-light border-2 text-light">
-            Past Time Entertainment
+            PasTime Entertainment
           </span>
         </h2>
         <p className="card-text my-3 p-3 ">
