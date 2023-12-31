@@ -272,7 +272,7 @@ const Footer = () => {
       )}
       <div className="bg-dark text-light p-3 text-center">
         <span>
-          © Copyright 2023 | All Rights Reserved Past Time Entertainment
+          © Copyright 2023 | All Rights Reserved PasTime Entertainment
         </span>
       </div>
     </>

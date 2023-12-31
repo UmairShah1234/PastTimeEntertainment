@@ -60,6 +60,7 @@ const EventCard = () => {
                 <img
                   {...srcset(image, 121, image, image)}
                   style={{objectFit: 'fill'}}
+                  className="img-thumbnail"
                   // alt={item.title}
                   loading="lazy"
                 />
