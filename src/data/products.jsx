@@ -92,7 +92,7 @@ const products = [
   },
   {
     id: 12,
-    img: "/src/assets/console.jpg",
+    img: "/assets/console.jpg",
     title: "Gaming PC",
     path: "Gamingpc",
     desc: "PC gaming, or personal computer gaming, refers to the activity of playing video games on a personal computer. It has been a popular form of gaming for decades and offers numerous advantages and features that set it apart from other gaming platforms.",

@@ -38,7 +38,7 @@ const Training = () => {
               <InquireModal />
             </div>
             <img
-              src="/src/assets/conflict.jpg"
+              src="/assets/conflict.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "
@@ -49,7 +49,7 @@ const Training = () => {
         <div className="p-3 shadow-lg m-3">
           <div className="row">
             <img
-              src="/src/assets/mental.jpg"
+              src="/assets/mental.jpg"
               alt=""
               height={"200px"}
               className="col-md-3"
@@ -102,7 +102,7 @@ const Training = () => {
             </div>
 
             <img
-              src="/src/assets/hazard.jpg"
+              src="/assets/hazard.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "
@@ -113,7 +113,7 @@ const Training = () => {
         <div className="p-3 shadow-lg m-3">
           <div className="row">
             <img
-              src="/src/assets/sustainaibility.jpg"
+              src="/assets/sustainaibility.jpg"
               alt=""
               height={"200px"}
               className="col-md-3 "
