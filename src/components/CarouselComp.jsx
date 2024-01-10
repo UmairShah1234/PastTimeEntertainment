@@ -77,6 +77,10 @@ const CarouselComp = () => {
           <div className="carousel-caption d-none d-md-block">
             {/* <h5>Third slide label</h5>
             <p>Some representative placeholder content for the third slide.</p> */}
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Get The Best Gaming Experience with</h5>
+              <p>Pastime Entertainment</p>
+            </div>
           </div>
         </div>
       </div>

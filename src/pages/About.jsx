@@ -34,16 +34,17 @@ const About = () => {
             <p>
               At Pastime Entertainment, we bring innovation and excitement to
               your events and brand advertising campaigns through the
-              cutting-edge world of Virtual Reality (VR). With a passion for
-              delivering unforgettable experiences, we specialize in infusing
-              your gatherings with a dose of technological marvel. Our
-              state-of-the-art VR setups and immersive content guarantee that
-              your event becomes an unforgettable adventure, leaving a lasting
-              impression on your guests and enhancing your brand's presence. We
-              thrive on pushing boundaries, bridging reality with the virtual
-              realm to craft moments that resonate. Join us on this thrilling
-              journey, where we transform ordinary events into extraordinary
-              memories and elevate your brand to new heights
+              cutting-edge worlds of Augmented Reality (AR) and Virtual Reality
+              (VR). With a passion for delivering unforgettable experiences, we
+              specialize in infusing your gatherings with a dose of
+              technological marvel. Our state-of-the-art AR/VR setups and
+              immersive content guarantee that your event becomes an
+              unforgettable adventure, leaving a lasting impression on your
+              guests and enhancing your brand's presence. We thrive on pushing
+              boundaries, bridging reality with the virtual realm to craft
+              moments that resonate. Join us on this thrilling journey, where we
+              transform ordinary events into extraordinary memories and elevate
+              your brand to new heights.
             </p>
           </div>
         </div>
@@ -52,18 +53,11 @@ const About = () => {
           <h2 className="text-danger">What We Do?</h2>
           <div>
             <p>
-              At Pastime Entertainment, we bring innovation and excitement to
-              your events and brand advertising campaigns through the
-              cutting-edge world of Virtual Reality (VR). With a passion for
-              delivering unforgettable experiences, we specialize in infusing
-              your gatherings with a dose of technological marvel. Our
-              state-of-the-art VR setups and immersive content guarantee that
-              your event becomes an unforgettable adventure, leaving a lasting
-              impression on your guests and enhancing your brand's presence. We
-              thrive on pushing boundaries, bridging reality with the virtual
-              realm to craft moments that resonate. Join us on this thrilling
-              journey, where we transform ordinary events into extraordinary
-              memories and elevate your brand to new heights
+              At Pastime Entertainment, we are passionate about pushing the
+              boundaries of what's possible with AR and VR. Join us in
+              transforming events into immersive adventures, creating lasting
+              impressions, and unlocking new dimensions of engagement for your
+              brand
             </p>
           </div>
         </div>
