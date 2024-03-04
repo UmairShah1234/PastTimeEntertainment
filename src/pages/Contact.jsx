@@ -20,11 +20,31 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log("formSubmit called");
     try {
-      await axios.post("http://localhost:5000/api/send-email", formData);
+  /* The commented code is making a POST request to a local server at
+  "http://localhost:8000/contact_form.php" with the form data as the request body. It is using the
+  axios library to send the request. The request is being sent with the Content-Type header set to
+  "application/json". However, this code is currently commented out and not being executed. */
+      // const response = await axios.post(
+      //   "http://localhost:8000/contact_form.php",
+      //   new URLSearchParams(formData), {
+      //     headers: {
+      //         'Content-Type': 'application/json',
+      //     },
+      // }
+      // );
+  
+      const response = await axios.post(
+        "https://pastimeentertainment.in/contact_form.php",
+        new URLSearchParams(formData), {
+          headers: {
+            // 'Content-Type': 'text/html',
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+      }
+      );
+  // console.log("email sent", response);
       setShowSuccessAlert(true);
-
       setFormData({
         name: "",
         email: "",
@@ -32,7 +52,7 @@ const Contact = () => {
         message: "",
       });
     } catch (error) {
-      console.error("Error sending email:", error);
+      // console.error("Error sending email:", error);
       setShowErrorAlert(true);
     }
   };

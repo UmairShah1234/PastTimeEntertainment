@@ -23,7 +23,16 @@ const InquireModal = () => {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/api/send-inquiry", formData);
+      // await axios.post("/api/send-inquiry", formData);
+      // await axios.post("http://localhost:5000/api/send-inquiry", formData);
+      // await axios.post("http://localhost:8000/inquire_form.php",    new URLSearchParams(formData));
+      const response =   await axios.post("https://pastimeentertainment.in/inquire_form.php",    new URLSearchParams(formData), {
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+    }
+    );
+    // console.log("email sent", response);
       setShowSuccessAlert(true);
 
       setFormData({
