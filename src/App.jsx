@@ -22,6 +22,9 @@ import Vrgolf from "./pages/explore/Vrgolf";
 import Racing from "./pages/explore/Racing";
 import Retrogaming from "./pages/explore/Retrogaming";
 import Maps from "./components/Maps";
+import { useEffect } from "react";
+import { initializeTagManager } from "./components/initializeTagManager";
+import usePageTracking from "./components/usePageTracking";
 
 const router = createBrowserRouter([
   {
@@ -124,6 +127,10 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  useEffect(() => {
+    initializeTagManager();
+  }, []);
+  usePageTracking();
   return (
     <RouterProvider router={router}>
       <></>
