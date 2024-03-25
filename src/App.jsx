@@ -24,7 +24,8 @@ import Retrogaming from "./pages/explore/Retrogaming";
 import Maps from "./components/Maps";
 import { useEffect } from "react";
 import { initializeTagManager } from "./components/initializeTagManager";
-import usePageTracking from "./components/usePageTracking";
+
+
 
 const router = createBrowserRouter([
   {
@@ -130,9 +131,9 @@ function App() {
   useEffect(() => {
     initializeTagManager();
   }, []);
-  usePageTracking();
   return (
     <RouterProvider router={router}>
+      
       <></>
     </RouterProvider>
   );

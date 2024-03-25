@@ -4,7 +4,11 @@ import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 import Footer from "../components/Footer";
 import WhatsApp from "../components/WhatsApp";
 
+import usePageTracking from "../components/usePageTracking";
+
 const Layout = () => {
+
+  usePageTracking();
   return (
     <div className="bg-dark text-light">
       <Header />
